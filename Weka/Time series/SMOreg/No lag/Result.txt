@@ -1,0 +1,1987 @@
+=== Run information ===
+
+Scheme:
+	LinearRegression -S 0 -R 1.0E-8 -num-decimal-places 4
+
+Lagged and derived variable options:
+	-F "Humidity,Wind Speed,Outside Temp" -L 1 -M 24 -G DateTime -am-pm
+
+Relation:     Weather-weka.filters.unsupervised.attribute.Remove-R2,4,5,6,8,9,10,11,12
+Instances:    1334
+Attributes:   4
+              DateTime
+              Humidity
+              Wind Speed
+              Outside Temp
+
+Transformed training data:
+
+              Humidity
+              Wind Speed
+              Outside Temp
+              AM
+              DateTime-remapped
+              Lag_Humidity-1
+              Lag_Humidity-2
+              Lag_Humidity-3
+              Lag_Humidity-4
+              Lag_Humidity-5
+              Lag_Humidity-6
+              Lag_Humidity-7
+              Lag_Humidity-8
+              Lag_Humidity-9
+              Lag_Humidity-10
+              Lag_Humidity-11
+              Lag_Humidity-12
+              Lag_Humidity-13
+              Lag_Humidity-14
+              Lag_Humidity-15
+              Lag_Humidity-16
+              Lag_Humidity-17
+              Lag_Humidity-18
+              Lag_Humidity-19
+              Lag_Humidity-20
+              Lag_Humidity-21
+              Lag_Humidity-22
+              Lag_Humidity-23
+              Lag_Humidity-24
+              Lag_Wind Speed-1
+              Lag_Wind Speed-2
+              Lag_Wind Speed-3
+              Lag_Wind Speed-4
+              Lag_Wind Speed-5
+              Lag_Wind Speed-6
+              Lag_Wind Speed-7
+              Lag_Wind Speed-8
+              Lag_Wind Speed-9
+              Lag_Wind Speed-10
+              Lag_Wind Speed-11
+              Lag_Wind Speed-12
+              Lag_Wind Speed-13
+              Lag_Wind Speed-14
+              Lag_Wind Speed-15
+              Lag_Wind Speed-16
+              Lag_Wind Speed-17
+              Lag_Wind Speed-18
+              Lag_Wind Speed-19
+              Lag_Wind Speed-20
+              Lag_Wind Speed-21
+              Lag_Wind Speed-22
+              Lag_Wind Speed-23
+              Lag_Wind Speed-24
+              Lag_Outside Temp-1
+              Lag_Outside Temp-2
+              Lag_Outside Temp-3
+              Lag_Outside Temp-4
+              Lag_Outside Temp-5
+              Lag_Outside Temp-6
+              Lag_Outside Temp-7
+              Lag_Outside Temp-8
+              Lag_Outside Temp-9
+              Lag_Outside Temp-10
+              Lag_Outside Temp-11
+              Lag_Outside Temp-12
+              Lag_Outside Temp-13
+              Lag_Outside Temp-14
+              Lag_Outside Temp-15
+              Lag_Outside Temp-16
+              Lag_Outside Temp-17
+              Lag_Outside Temp-18
+              Lag_Outside Temp-19
+              Lag_Outside Temp-20
+              Lag_Outside Temp-21
+              Lag_Outside Temp-22
+              Lag_Outside Temp-23
+              Lag_Outside Temp-24
+              DateTime-remapped^2
+              DateTime-remapped^3
+              DateTime-remapped*Lag_Humidity-1
+              DateTime-remapped*Lag_Humidity-2
+              DateTime-remapped*Lag_Humidity-3
+              DateTime-remapped*Lag_Humidity-4
+              DateTime-remapped*Lag_Humidity-5
+              DateTime-remapped*Lag_Humidity-6
+              DateTime-remapped*Lag_Humidity-7
+              DateTime-remapped*Lag_Humidity-8
+              DateTime-remapped*Lag_Humidity-9
+              DateTime-remapped*Lag_Humidity-10
+              DateTime-remapped*Lag_Humidity-11
+              DateTime-remapped*Lag_Humidity-12
+              DateTime-remapped*Lag_Humidity-13
+              DateTime-remapped*Lag_Humidity-14
+              DateTime-remapped*Lag_Humidity-15
+              DateTime-remapped*Lag_Humidity-16
+              DateTime-remapped*Lag_Humidity-17
+              DateTime-remapped*Lag_Humidity-18
+              DateTime-remapped*Lag_Humidity-19
+              DateTime-remapped*Lag_Humidity-20
+              DateTime-remapped*Lag_Humidity-21
+              DateTime-remapped*Lag_Humidity-22
+              DateTime-remapped*Lag_Humidity-23
+              DateTime-remapped*Lag_Humidity-24
+              DateTime-remapped*Lag_Wind Speed-1
+              DateTime-remapped*Lag_Wind Speed-2
+              DateTime-remapped*Lag_Wind Speed-3
+              DateTime-remapped*Lag_Wind Speed-4
+              DateTime-remapped*Lag_Wind Speed-5
+              DateTime-remapped*Lag_Wind Speed-6
+              DateTime-remapped*Lag_Wind Speed-7
+              DateTime-remapped*Lag_Wind Speed-8
+              DateTime-remapped*Lag_Wind Speed-9
+              DateTime-remapped*Lag_Wind Speed-10
+              DateTime-remapped*Lag_Wind Speed-11
+              DateTime-remapped*Lag_Wind Speed-12
+              DateTime-remapped*Lag_Wind Speed-13
+              DateTime-remapped*Lag_Wind Speed-14
+              DateTime-remapped*Lag_Wind Speed-15
+              DateTime-remapped*Lag_Wind Speed-16
+              DateTime-remapped*Lag_Wind Speed-17
+              DateTime-remapped*Lag_Wind Speed-18
+              DateTime-remapped*Lag_Wind Speed-19
+              DateTime-remapped*Lag_Wind Speed-20
+              DateTime-remapped*Lag_Wind Speed-21
+              DateTime-remapped*Lag_Wind Speed-22
+              DateTime-remapped*Lag_Wind Speed-23
+              DateTime-remapped*Lag_Wind Speed-24
+              DateTime-remapped*Lag_Outside Temp-1
+              DateTime-remapped*Lag_Outside Temp-2
+              DateTime-remapped*Lag_Outside Temp-3
+              DateTime-remapped*Lag_Outside Temp-4
+              DateTime-remapped*Lag_Outside Temp-5
+              DateTime-remapped*Lag_Outside Temp-6
+              DateTime-remapped*Lag_Outside Temp-7
+              DateTime-remapped*Lag_Outside Temp-8
+              DateTime-remapped*Lag_Outside Temp-9
+              DateTime-remapped*Lag_Outside Temp-10
+              DateTime-remapped*Lag_Outside Temp-11
+              DateTime-remapped*Lag_Outside Temp-12
+              DateTime-remapped*Lag_Outside Temp-13
+              DateTime-remapped*Lag_Outside Temp-14
+              DateTime-remapped*Lag_Outside Temp-15
+              DateTime-remapped*Lag_Outside Temp-16
+              DateTime-remapped*Lag_Outside Temp-17
+              DateTime-remapped*Lag_Outside Temp-18
+              DateTime-remapped*Lag_Outside Temp-19
+              DateTime-remapped*Lag_Outside Temp-20
+              DateTime-remapped*Lag_Outside Temp-21
+              DateTime-remapped*Lag_Outside Temp-22
+              DateTime-remapped*Lag_Outside Temp-23
+              DateTime-remapped*Lag_Outside Temp-24
+
+--------------------------------------------------------
+Instances were inserted in the taining data for the
+following time-stamps (target values set by interpolation):
+
+              2019-03-18T10:00:38, 2019-03-18T11:00:38, 2019-03-18T12:00:38, 2019-03-19T10:00:39, 2019-03-19T12:00:37, 2019-03-23T23:00:38, 2019-03-26T07:00:38, 2019-04-07T02:00:37, 2019-04-18T11:00:40, 2019-04-25T02:00:39, 2019-04-25T09:00:38
+--------------------------------------------------------
+
+---------------------------------------------------
+The following training instances had missing values
+imputed via interpolation. Check source data as
+this may affect forecasting performance:
+
+              15,16,17,39,41,148,204,487,762,921,928
+---------------------------------------------------
+
+Humidity:
+
+Linear Regression Model
+
+Humidity =
+
+      0.7507 * AM +
+     -0.0015 * DateTime-remapped +
+      0.5843 * Lag_Humidity-1 +
+      0.1754 * Lag_Humidity-2 +
+      0.1054 * Lag_Humidity-3 +
+     -0.0667 * Lag_Humidity-5 +
+     -0.0892 * Lag_Humidity-6 +
+      0.1175 * Lag_Humidity-7 +
+      0.1251 * Lag_Humidity-8 +
+     -0.1046 * Lag_Humidity-17 +
+      0.0736 * Lag_Humidity-18 +
+      0.078  * Lag_Humidity-22 +
+     -0.0742 * Lag_Humidity-24 +
+     -0.0338 * Lag_Wind Speed-1 +
+     -0.051  * Lag_Wind Speed-2 +
+      0.0711 * Lag_Wind Speed-3 +
+      0.0346 * Lag_Wind Speed-5 +
+      0.02   * Lag_Wind Speed-6 +
+     -0.02   * Lag_Wind Speed-9 +
+      0.0286 * Lag_Wind Speed-15 +
+     -0.1066 * Lag_Wind Speed-16 +
+      0.0329 * Lag_Wind Speed-17 +
+      0.0247 * Lag_Wind Speed-18 +
+      0.0735 * Lag_Wind Speed-19 +
+     -0.0334 * Lag_Wind Speed-23 +
+     -0.1053 * Lag_Outside Temp-1 +
+      0.1747 * Lag_Outside Temp-2 +
+     -0.2583 * Lag_Outside Temp-3 +
+      0.1325 * Lag_Outside Temp-5 +
+      0.0604 * Lag_Outside Temp-6 +
+     -0.0835 * Lag_Outside Temp-10 +
+     -0.0709 * Lag_Outside Temp-11 +
+      0.1759 * Lag_Outside Temp-12 +
+     -0.0844 * Lag_Outside Temp-13 +
+     -0.1431 * Lag_Outside Temp-15 +
+      0.0893 * Lag_Outside Temp-16 +
+      0.3397 * Lag_Outside Temp-17 +
+     -0.077  * Lag_Outside Temp-18 +
+     -0.2435 * Lag_Outside Temp-19 +
+     -0.0447 * Lag_Outside Temp-21 +
+     -0.1365 * Lag_Outside Temp-22 +
+      0.1754 * Lag_Outside Temp-23 +
+      0      * DateTime-remapped^2 +
+     -0.0001 * DateTime-remapped*Lag_Humidity-1 +
+     -0.0001 * DateTime-remapped*Lag_Humidity-3 +
+      0.0001 * DateTime-remapped*Lag_Humidity-4 +
+      0.0001 * DateTime-remapped*Lag_Humidity-5 +
+      0.0001 * DateTime-remapped*Lag_Humidity-6 +
+     -0.0001 * DateTime-remapped*Lag_Humidity-7 +
+     -0.0001 * DateTime-remapped*Lag_Humidity-8 +
+     -0      * DateTime-remapped*Lag_Humidity-9 +
+     -0      * DateTime-remapped*Lag_Humidity-11 +
+      0.0001 * DateTime-remapped*Lag_Humidity-13 +
+      0      * DateTime-remapped*Lag_Humidity-16 +
+      0.0002 * DateTime-remapped*Lag_Humidity-17 +
+     -0.0001 * DateTime-remapped*Lag_Humidity-18 +
+     -0.0002 * DateTime-remapped*Lag_Humidity-19 +
+      0      * DateTime-remapped*Lag_Humidity-20 +
+     -0.0001 * DateTime-remapped*Lag_Humidity-21 +
+     -0.0001 * DateTime-remapped*Lag_Humidity-22 +
+      0.0001 * DateTime-remapped*Lag_Humidity-23 +
+      0.0001 * DateTime-remapped*Lag_Humidity-24 +
+      0      * DateTime-remapped*Lag_Wind Speed-1 +
+      0.0001 * DateTime-remapped*Lag_Wind Speed-2 +
+     -0.0002 * DateTime-remapped*Lag_Wind Speed-3 +
+     -0.0001 * DateTime-remapped*Lag_Wind Speed-5 +
+     -0      * DateTime-remapped*Lag_Wind Speed-8 +
+      0      * DateTime-remapped*Lag_Wind Speed-9 +
+     -0      * DateTime-remapped*Lag_Wind Speed-12 +
+      0      * DateTime-remapped*Lag_Wind Speed-14 +
+     -0      * DateTime-remapped*Lag_Wind Speed-15 +
+      0.0002 * DateTime-remapped*Lag_Wind Speed-16 +
+     -0      * DateTime-remapped*Lag_Wind Speed-17 +
+     -0.0001 * DateTime-remapped*Lag_Wind Speed-18 +
+     -0.0001 * DateTime-remapped*Lag_Wind Speed-19 +
+      0      * DateTime-remapped*Lag_Wind Speed-23 +
+      0.0003 * DateTime-remapped*Lag_Outside Temp-1 +
+     -0.0003 * DateTime-remapped*Lag_Outside Temp-2 +
+      0.0003 * DateTime-remapped*Lag_Outside Temp-3 +
+     -0.0001 * DateTime-remapped*Lag_Outside Temp-4 +
+     -0.0003 * DateTime-remapped*Lag_Outside Temp-5 +
+      0.0002 * DateTime-remapped*Lag_Outside Temp-7 +
+      0.0001 * DateTime-remapped*Lag_Outside Temp-8 +
+      0.0001 * DateTime-remapped*Lag_Outside Temp-11 +
+     -0.0003 * DateTime-remapped*Lag_Outside Temp-12 +
+      0.0004 * DateTime-remapped*Lag_Outside Temp-13 +
+     -0.0002 * DateTime-remapped*Lag_Outside Temp-14 +
+      0.0001 * DateTime-remapped*Lag_Outside Temp-15 +
+     -0.0003 * DateTime-remapped*Lag_Outside Temp-16 +
+     -0.0004 * DateTime-remapped*Lag_Outside Temp-17 +
+      0.0001 * DateTime-remapped*Lag_Outside Temp-18 +
+      0.0005 * DateTime-remapped*Lag_Outside Temp-19 +
+      0.0001 * DateTime-remapped*Lag_Outside Temp-21 +
+      0.0002 * DateTime-remapped*Lag_Outside Temp-22 +
+     -0.0003 * DateTime-remapped*Lag_Outside Temp-23 +
+      4.731 
+
+Wind Speed:
+
+Linear Regression Model
+
+Wind Speed =
+
+     -0.011  * DateTime-remapped +
+     -0.2123 * Lag_Humidity-1 +
+      0.2176 * Lag_Humidity-6 +
+      0.239  * Lag_Humidity-15 +
+     -0.2919 * Lag_Humidity-16 +
+      0.6756 * Lag_Wind Speed-1 +
+     -0.094  * Lag_Wind Speed-2 +
+      0.1211 * Lag_Wind Speed-4 +
+     -0.1149 * Lag_Wind Speed-12 +
+      0.1217 * Lag_Wind Speed-13 +
+     -0.1336 * Lag_Wind Speed-15 +
+      0.1413 * Lag_Wind Speed-16 +
+     -0.0803 * Lag_Wind Speed-21 +
+      0.1613 * Lag_Wind Speed-22 +
+     -0.1201 * Lag_Wind Speed-24 +
+      0.4738 * Lag_Outside Temp-1 +
+     -0.45   * Lag_Outside Temp-3 +
+      0.5611 * Lag_Outside Temp-4 +
+     -0.3257 * Lag_Outside Temp-5 +
+     -0.3324 * Lag_Outside Temp-10 +
+      0.2245 * Lag_Outside Temp-12 +
+     -0.2928 * Lag_Outside Temp-18 +
+      0.7401 * Lag_Outside Temp-19 +
+     -0.5559 * Lag_Outside Temp-21 +
+      0.3076 * Lag_Outside Temp-23 +
+      0.3685 * Lag_Outside Temp-24 +
+      0      * DateTime-remapped^2 +
+     -0      * DateTime-remapped^3 +
+      0.0003 * DateTime-remapped*Lag_Humidity-1 +
+     -0.0002 * DateTime-remapped*Lag_Humidity-3 +
+      0.0003 * DateTime-remapped*Lag_Humidity-4 +
+     -0.0002 * DateTime-remapped*Lag_Humidity-6 +
+      0.0002 * DateTime-remapped*Lag_Humidity-7 +
+      0.0001 * DateTime-remapped*Lag_Humidity-8 +
+     -0.0003 * DateTime-remapped*Lag_Humidity-9 +
+     -0.0001 * DateTime-remapped*Lag_Humidity-11 +
+      0.0001 * DateTime-remapped*Lag_Humidity-13 +
+     -0.0003 * DateTime-remapped*Lag_Humidity-15 +
+      0.0002 * DateTime-remapped*Lag_Humidity-16 +
+      0.0004 * DateTime-remapped*Lag_Humidity-19 +
+      0.0002 * DateTime-remapped*Lag_Humidity-20 +
+     -0.0009 * DateTime-remapped*Lag_Humidity-21 +
+      0.0005 * DateTime-remapped*Lag_Humidity-22 +
+      0.0002 * DateTime-remapped*Lag_Humidity-23 +
+     -0.0001 * DateTime-remapped*Lag_Wind Speed-1 +
+      0.0004 * DateTime-remapped*Lag_Wind Speed-2 +
+      0.0001 * DateTime-remapped*Lag_Wind Speed-3 +
+     -0.0002 * DateTime-remapped*Lag_Wind Speed-4 +
+      0.0001 * DateTime-remapped*Lag_Wind Speed-12 +
+     -0.0002 * DateTime-remapped*Lag_Wind Speed-13 +
+      0.0001 * DateTime-remapped*Lag_Wind Speed-15 +
+     -0.0002 * DateTime-remapped*Lag_Wind Speed-16 +
+     -0.0001 * DateTime-remapped*Lag_Wind Speed-18 +
+      0.0002 * DateTime-remapped*Lag_Wind Speed-19 +
+      0.0001 * DateTime-remapped*Lag_Wind Speed-21 +
+     -0.0002 * DateTime-remapped*Lag_Wind Speed-22 +
+      0.0002 * DateTime-remapped*Lag_Wind Speed-24 +
+      0.0003 * DateTime-remapped*Lag_Outside Temp-3 +
+     -0.0005 * DateTime-remapped*Lag_Outside Temp-4 +
+      0.0004 * DateTime-remapped*Lag_Outside Temp-6 +
+     -0.0007 * DateTime-remapped*Lag_Outside Temp-7 +
+      0.0005 * DateTime-remapped*Lag_Outside Temp-9 +
+      0.0005 * DateTime-remapped*Lag_Outside Temp-11 +
+     -0.0007 * DateTime-remapped*Lag_Outside Temp-12 +
+      0.0001 * DateTime-remapped*Lag_Outside Temp-13 +
+      0.0005 * DateTime-remapped*Lag_Outside Temp-15 +
+     -0.0002 * DateTime-remapped*Lag_Outside Temp-16 +
+      0.0004 * DateTime-remapped*Lag_Outside Temp-18 +
+     -0.0013 * DateTime-remapped*Lag_Outside Temp-19 +
+      0.0011 * DateTime-remapped*Lag_Outside Temp-21 +
+     -0.0003 * DateTime-remapped*Lag_Outside Temp-23 +
+     -0.0006 * DateTime-remapped*Lag_Outside Temp-24 +
+     -9.6134
+
+Outside Temp:
+
+Linear Regression Model
+
+Outside Temp =
+
+     -0.0076 * DateTime-remapped +
+     -0.0895 * Lag_Humidity-1 +
+      0.0716 * Lag_Humidity-3 +
+      0.067  * Lag_Humidity-15 +
+     -0.0797 * Lag_Humidity-17 +
+     -0.0417 * Lag_Humidity-18 +
+     -0.0151 * Lag_Wind Speed-2 +
+      0.0197 * Lag_Wind Speed-10 +
+     -0.0307 * Lag_Wind Speed-12 +
+      0.0268 * Lag_Wind Speed-13 +
+     -0.0325 * Lag_Wind Speed-14 +
+      0.0206 * Lag_Wind Speed-15 +
+      0.0166 * Lag_Wind Speed-19 +
+     -0.021  * Lag_Wind Speed-22 +
+      0.0363 * Lag_Wind Speed-23 +
+      0.8398 * Lag_Outside Temp-1 +
+      0.1116 * Lag_Outside Temp-2 +
+     -0.158  * Lag_Outside Temp-3 +
+      0.0359 * Lag_Outside Temp-4 +
+     -0.0376 * Lag_Outside Temp-5 +
+     -0.0891 * Lag_Outside Temp-6 +
+      0.0392 * Lag_Outside Temp-9 +
+      0.0317 * Lag_Outside Temp-14 +
+     -0.0959 * Lag_Outside Temp-15 +
+      0.0468 * Lag_Outside Temp-17 +
+      0.0836 * Lag_Outside Temp-18 +
+     -0.1187 * Lag_Outside Temp-19 +
+      0.0534 * Lag_Outside Temp-20 +
+     -0.0858 * Lag_Outside Temp-21 +
+      0.1917 * Lag_Outside Temp-22 +
+     -0.0532 * Lag_Outside Temp-23 +
+      0.0629 * Lag_Outside Temp-24 +
+     -0      * DateTime-remapped^2 +
+      0      * DateTime-remapped^3 +
+      0.0001 * DateTime-remapped*Lag_Humidity-1 +
+      0.0001 * DateTime-remapped*Lag_Humidity-2 +
+     -0.0001 * DateTime-remapped*Lag_Humidity-3 +
+     -0      * DateTime-remapped*Lag_Humidity-6 +
+     -0      * DateTime-remapped*Lag_Humidity-8 +
+      0      * DateTime-remapped*Lag_Humidity-10 +
+     -0.0001 * DateTime-remapped*Lag_Humidity-13 +
+      0      * DateTime-remapped*Lag_Humidity-14 +
+     -0.0001 * DateTime-remapped*Lag_Humidity-15 +
+     -0      * DateTime-remapped*Lag_Humidity-16 +
+      0.0001 * DateTime-remapped*Lag_Humidity-17 +
+     -0.0001 * DateTime-remapped*Lag_Humidity-19 +
+     -0      * DateTime-remapped*Lag_Humidity-20 +
+      0.0001 * DateTime-remapped*Lag_Humidity-22 +
+     -0      * DateTime-remapped*Lag_Humidity-23 +
+      0      * DateTime-remapped*Lag_Humidity-24 +
+      0      * DateTime-remapped*Lag_Wind Speed-2 +
+      0      * DateTime-remapped*Lag_Wind Speed-4 +
+     -0      * DateTime-remapped*Lag_Wind Speed-5 +
+      0      * DateTime-remapped*Lag_Wind Speed-8 +
+     -0      * DateTime-remapped*Lag_Wind Speed-10 +
+      0      * DateTime-remapped*Lag_Wind Speed-12 +
+     -0      * DateTime-remapped*Lag_Wind Speed-13 +
+      0      * DateTime-remapped*Lag_Wind Speed-14 +
+     -0      * DateTime-remapped*Lag_Wind Speed-15 +
+     -0      * DateTime-remapped*Lag_Wind Speed-18 +
+      0      * DateTime-remapped*Lag_Wind Speed-22 +
+     -0.0001 * DateTime-remapped*Lag_Wind Speed-23 +
+      0      * DateTime-remapped*Lag_Outside Temp-1 +
+      0.0002 * DateTime-remapped*Lag_Outside Temp-3 +
+     -0.0002 * DateTime-remapped*Lag_Outside Temp-4 +
+      0.0001 * DateTime-remapped*Lag_Outside Temp-5 +
+     -0      * DateTime-remapped*Lag_Outside Temp-8 +
+     -0.0001 * DateTime-remapped*Lag_Outside Temp-10 +
+      0.0001 * DateTime-remapped*Lag_Outside Temp-11 +
+      0.0001 * DateTime-remapped*Lag_Outside Temp-13 +
+     -0.0002 * DateTime-remapped*Lag_Outside Temp-14 +
+      0.0002 * DateTime-remapped*Lag_Outside Temp-15 +
+     -0.0002 * DateTime-remapped*Lag_Outside Temp-17 +
+      0.0001 * DateTime-remapped*Lag_Outside Temp-18 +
+      0.0002 * DateTime-remapped*Lag_Outside Temp-19 +
+     -0.0001 * DateTime-remapped*Lag_Outside Temp-20 +
+      0.0001 * DateTime-remapped*Lag_Outside Temp-21 +
+     -0.0002 * DateTime-remapped*Lag_Outside Temp-22 +
+      0.0001 * DateTime-remapped*Lag_Outside Temp-23 +
+     -0.0001 * DateTime-remapped*Lag_Outside Temp-24 +
+      5.9237
+
+=== Future predictions from end of training data ===
+Time                     Humidity   Wind Speed Outside Temp 
+2019-03-17T20:00:44          44.9           17           22 
+2019-03-17T21:00:44            43           17           22 
+2019-03-17T22:00:44          43.3           13           21 
+2019-03-17T23:00:44          44.1            9           20 
+2019-03-18T00:00:44          44.2            9           21 
+2019-03-18T01:00:44          46.3            7           20 
+2019-03-18T02:00:44          45.2            6           19 
+2019-03-18T03:00:44          45.7            7           18 
+2019-03-18T04:00:44          45.7            7           19 
+2019-03-18T05:00:44          46.8            7           19 
+2019-03-18T06:00:44          47.4            6           19 
+2019-03-18T07:00:44          47.4            2           19 
+2019-03-18T08:00:44          51.2            7           19 
+2019-03-18T09:00:44          49.1            7           19 
+2019-03-18T10:00:44        47.875            8           20 
+2019-03-18T11:00:44         46.65            9           21 
+2019-03-18T12:00:44        45.425           10           22 
+2019-03-18T13:00:44          44.2           11           23 
+2019-03-18T14:00:44          43.5           11           23 
+2019-03-18T15:00:44          43.4           13           22 
+2019-03-18T16:00:44          43.3           13           23 
+2019-03-18T17:00:44            44           17           22 
+2019-03-18T18:00:44          47.3           11           22 
+2019-03-18T19:00:44          46.9            6           20 
+2019-03-18T20:00:44          46.8           11           19 
+2019-03-18T21:00:44          44.8            9           19 
+2019-03-18T22:00:44          45.5            9           19 
+2019-03-18T23:00:44          46.4            6           19 
+2019-03-19T00:00:44            47            4           19 
+2019-03-19T01:00:44          47.4            6           19 
+2019-03-19T02:00:44          47.2            6           19 
+2019-03-19T03:00:44          48.2            2           19 
+2019-03-19T04:00:44          46.2            4           19 
+2019-03-19T05:00:44          47.3            7           19 
+2019-03-19T06:00:44            50            7           19 
+2019-03-19T07:00:44          50.6            7           19 
+2019-03-19T08:00:44          48.3            7           19 
+2019-03-19T09:00:44          49.4           11           19 
+2019-03-19T10:00:44         49.75          7.5           19 
+2019-03-19T11:00:44          50.1            4           19 
+2019-03-19T12:00:44          49.4         10.5           19 
+2019-03-19T13:00:44          48.7           17           19 
+2019-03-19T14:00:44          48.6           17           19 
+2019-03-19T15:00:44          48.1           17           19 
+2019-03-19T16:00:44          48.2           15           19 
+2019-03-19T17:00:44          49.2            9           20 
+2019-03-19T18:00:44          48.5           11           21 
+2019-03-19T19:00:44          49.1            9           21 
+2019-03-19T20:00:44          49.6            9           19 
+2019-03-19T21:00:44            49            6           19 
+2019-03-19T22:00:44          45.6            6           18 
+2019-03-19T23:00:44          47.4            9           18 
+2019-03-20T00:00:44          48.5            9           18 
+2019-03-20T01:00:44          49.9            9           18 
+2019-03-20T02:00:44          47.4            4           18 
+2019-03-20T03:00:44          47.6            4           18 
+2019-03-20T04:00:44            48            6           18 
+2019-03-20T05:00:44          47.6            4           17 
+2019-03-20T06:00:44          47.2            4           17 
+2019-03-20T07:00:44            48            6           17 
+2019-03-20T08:00:44            48            7           18 
+2019-03-20T09:00:44          47.5            7           18 
+2019-03-20T10:00:44          49.6            7           17 
+2019-03-20T11:00:44            50           11           20 
+2019-03-20T12:00:44          50.6            9           20 
+2019-03-20T13:00:44          49.9            7           21 
+2019-03-20T14:00:44          47.8            7           21 
+2019-03-20T15:00:44          46.8            7           22 
+2019-03-20T16:00:44          45.5           13           22 
+2019-03-20T17:00:44          45.1           13           23 
+2019-03-20T18:00:44          45.6           13           23 
+2019-03-20T19:00:44          45.5           17           23 
+2019-03-20T20:00:44          45.8           15           21 
+2019-03-20T21:00:44            45           11           20 
+2019-03-20T22:00:44            44            6           19 
+2019-03-20T23:00:44          45.2            6           19 
+2019-03-21T00:00:44          46.1            0           19 
+2019-03-21T01:00:44          46.4            2           18 
+2019-03-21T02:00:44          46.7            6           18 
+2019-03-21T03:00:44          46.1            4           17 
+2019-03-21T04:00:44          44.2            2           17 
+2019-03-21T05:00:44          46.1            0           16 
+2019-03-21T06:00:44            46            4           15 
+2019-03-21T07:00:44          47.2            4           15 
+2019-03-21T08:00:44            46            2           15 
+2019-03-21T09:00:44          45.6            4           16 
+2019-03-21T10:00:44          46.7            4           19 
+2019-03-21T11:00:44          44.8            4           20 
+2019-03-21T12:00:44          44.6            6           22 
+2019-03-21T13:00:44          42.4           15           22 
+2019-03-21T14:00:44          42.5           15           22 
+2019-03-21T15:00:44          41.5           11           22 
+2019-03-21T16:00:44          41.9            6           23 
+2019-03-21T17:00:44          38.5            9           24 
+2019-03-21T18:00:44            44           11           23 
+2019-03-21T19:00:44          42.3           17           23 
+2019-03-21T20:00:44          41.8           15           21 
+2019-03-21T21:00:44          43.2           13           21 
+2019-03-21T22:00:44          43.2            9           20 
+2019-03-21T23:00:44          43.7            6           19 
+2019-03-22T00:00:44          43.7            7           19 
+2019-03-22T01:00:44          43.9            4           19 
+2019-03-22T02:00:44            45            2           19 
+2019-03-22T03:00:44          45.3            6           18 
+2019-03-22T04:00:44          47.6            2           17 
+2019-03-22T05:00:44            45            0           18 
+2019-03-22T06:00:44          45.4            4           18 
+2019-03-22T07:00:44          46.3            2           17 
+2019-03-22T08:00:44          47.4            0           17 
+2019-03-22T09:00:44          46.2            2           16 
+2019-03-22T10:00:44          47.9            2           20 
+2019-03-22T11:00:44          44.2            2           21 
+2019-03-22T12:00:44          44.4            9           21 
+2019-03-22T13:00:44          41.9            9           22 
+2019-03-22T14:00:44          39.7            9           22 
+2019-03-22T15:00:44          40.4           13           24 
+2019-03-22T16:00:44          40.2           17           24 
+2019-03-22T17:00:44            42           22           24 
+2019-03-22T18:00:44          43.2           20           23 
+2019-03-22T19:00:44          44.1           17           22 
+2019-03-22T20:00:44          44.5           11           21 
+2019-03-22T21:00:44          43.8           11           20 
+2019-03-22T22:00:44          42.6            6           19 
+2019-03-22T23:00:44          44.7            6           19 
+2019-03-23T00:00:44          44.4            7           18 
+2019-03-23T01:00:44          43.9            7           18 
+2019-03-23T02:00:44          44.2            6           18 
+2019-03-23T03:00:44          44.3            4           18 
+2019-03-23T04:00:44          44.1            4           17 
+2019-03-23T05:00:44          41.1            4           17 
+2019-03-23T06:00:44          43.5            4           16 
+2019-03-23T07:00:44          46.7            4           17 
+2019-03-23T08:00:44          45.8            2           17 
+2019-03-23T09:00:44          45.2            2           17 
+2019-03-23T10:00:44            45            4           17 
+2019-03-23T11:00:44          47.4            4           19 
+2019-03-23T12:00:44          47.2            6           21 
+2019-03-23T13:00:44          44.7            7           22 
+2019-03-23T14:00:44          44.6            7           22 
+2019-03-23T15:00:44          44.7           19           24 
+2019-03-23T16:00:44          42.9           22           24 
+2019-03-23T17:00:44          40.6           22           24 
+2019-03-23T18:00:44          41.9           20           23 
+2019-03-23T19:00:44          41.6           19           22 
+2019-03-23T20:00:44          42.9           15           21 
+2019-03-23T21:00:44          42.3           11           19 
+2019-03-23T22:00:44          42.8            9           18 
+2019-03-23T23:00:44            43          7.5         17.5 
+2019-03-24T00:00:44          43.2            6           17 
+2019-03-24T01:00:44          43.9            6           17 
+2019-03-24T02:00:44          43.5            6           18 
+2019-03-24T03:00:44          44.6            2           17 
+2019-03-24T04:00:44          44.1            2           17 
+2019-03-24T05:00:44          44.9            4           16 
+2019-03-24T06:00:44          44.6            2           15 
+2019-03-24T07:00:44          44.4            0           16 
+2019-03-24T08:00:44          45.3            2           15 
+2019-03-24T09:00:44          44.8            4           17 
+2019-03-24T10:00:44          47.1            6           20 
+2019-03-24T11:00:44          45.9            7           21 
+2019-03-24T12:00:44          50.6           11           21 
+2019-03-24T13:00:44          48.2            9           22 
+2019-03-24T14:00:44          45.3            9           22 
+2019-03-24T15:00:44          43.6           17           23 
+2019-03-24T16:00:44            44           15           23 
+2019-03-24T17:00:44          42.2           13           22 
+2019-03-24T18:00:44          39.6           15           22 
+2019-03-24T19:00:44          40.7           15           21 
+2019-03-24T20:00:44          42.1           15           21 
+2019-03-24T21:00:44          43.2            7           20 
+2019-03-24T22:00:44            43            9           19 
+2019-03-24T23:00:44          43.6            7           18 
+2019-03-25T00:00:44            44            2           18 
+2019-03-25T01:00:44          44.5            7           19 
+2019-03-25T02:00:44            45            7           19 
+2019-03-25T03:00:44          45.1            7           18 
+2019-03-25T04:00:44            45            4           18 
+2019-03-25T05:00:44          44.8            6           18 
+2019-03-25T06:00:44            48            6           18 
+2019-03-25T07:00:44          45.1            4           17 
+2019-03-25T08:00:44          45.1            4           17 
+2019-03-25T09:00:44          46.2            0           17 
+2019-03-25T10:00:44          45.6            7           20 
+2019-03-25T11:00:44          44.8           11           21 
+2019-03-25T12:00:44          43.9           17           24 
+2019-03-25T13:00:44          42.7           17           24 
+2019-03-25T14:00:44          41.5           17           24 
+2019-03-25T15:00:44          39.7           19           25 
+2019-03-25T16:00:44          41.3           22           25 
+2019-03-25T17:00:44          40.8           24           24 
+2019-03-25T18:00:44          40.7           22           23 
+2019-03-25T19:00:44          41.6           20           22 
+2019-03-25T20:00:44          42.6           19           21 
+2019-03-25T21:00:44            40           13           20 
+2019-03-25T22:00:44          39.5           11           19 
+2019-03-25T23:00:44          40.4            9           18 
+2019-03-26T00:00:44          41.6            9           18 
+2019-03-26T01:00:44          41.3            6           18 
+2019-03-26T02:00:44          41.9            7           19 
+2019-03-26T03:00:44          42.3            2           17 
+2019-03-26T04:00:44          41.9            6           17 
+2019-03-26T05:00:44          41.8            6           17 
+2019-03-26T06:00:44          42.2            2           17 
+2019-03-26T07:00:44         42.45            3           17 
+2019-03-26T08:00:44          42.7            4           17 
+2019-03-26T09:00:44          42.1            4           18 
+2019-03-26T10:00:44          43.1            6           20 
+2019-03-26T11:00:44          41.9           17           23 
+2019-03-26T12:00:44          41.3           20           24 
+2019-03-26T13:00:44          41.1           22           24 
+2019-03-26T14:00:44            40           22           24 
+2019-03-26T15:00:44          39.9           28           25 
+2019-03-26T16:00:44            40           28           24 
+2019-03-26T17:00:44            40           26           24 
+2019-03-26T18:00:44          40.2           24           23 
+2019-03-26T19:00:44          47.5           28           22 
+2019-03-26T20:00:44          41.2           19           20 
+2019-03-26T21:00:44          41.1           22           20 
+2019-03-26T22:00:44          40.3           19           20 
+2019-03-26T23:00:44          40.9           13           19 
+2019-03-27T00:00:44          41.4           15           20 
+2019-03-27T01:00:44            40           11           19 
+2019-03-27T02:00:44          40.9           11           19 
+2019-03-27T03:00:44          41.2            7           17 
+2019-03-27T04:00:44          41.5            7           17 
+2019-03-27T05:00:44          42.9            4           17 
+2019-03-27T06:00:44          42.3            7           17 
+2019-03-27T07:00:44          42.3            4           17 
+2019-03-27T08:00:44          43.2            7           17 
+2019-03-27T09:00:44          42.2            9           18 
+2019-03-27T10:00:44          42.9           20           20 
+2019-03-27T11:00:44          42.4           24           23 
+2019-03-27T12:00:44            41           22           23 
+2019-03-27T13:00:44          40.2           24           25 
+2019-03-27T14:00:44          39.8           24           25 
+2019-03-27T15:00:44            40           26           23 
+2019-03-27T16:00:44          40.3           28           23 
+2019-03-27T17:00:44          40.8           28           22 
+2019-03-27T18:00:44          41.2           22           22 
+2019-03-27T19:00:44          43.7           24           22 
+2019-03-27T20:00:44          41.4           22           22 
+2019-03-27T21:00:44          43.1           17           21 
+2019-03-27T22:00:44          43.5           11           21 
+2019-03-27T23:00:44          43.1           11           21 
+2019-03-28T00:00:44          43.7           11           21 
+2019-03-28T01:00:44            44           11           21 
+2019-03-28T02:00:44          44.2            9           20 
+2019-03-28T03:00:44          45.4            2           18 
+2019-03-28T04:00:44          45.5            6           18 
+2019-03-28T05:00:44          45.1            4           18 
+2019-03-28T06:00:44          44.8            6           18 
+2019-03-28T07:00:44          46.3            2           18 
+2019-03-28T08:00:44          45.8            7           18 
+2019-03-28T09:00:44          45.6            4           18 
+2019-03-28T10:00:44          46.7           11           19 
+2019-03-28T11:00:44          45.9           13           19 
+2019-03-28T12:00:44          46.9            9           20 
+2019-03-28T13:00:44          46.6           11           21 
+2019-03-28T14:00:44          45.2           11           21 
+2019-03-28T15:00:44          45.9           15           22 
+2019-03-28T16:00:44          44.9           19           21 
+2019-03-28T17:00:44          45.2           17           22 
+2019-03-28T18:00:44          46.8           19           22 
+2019-03-28T19:00:44          46.1           17           21 
+2019-03-28T20:00:44            46           17           21 
+2019-03-28T21:00:44          45.2           13           20 
+2019-03-28T22:00:44          46.3           15           19 
+2019-03-28T23:00:44          47.4            9           19 
+2019-03-29T00:00:44          47.7           17           18 
+2019-03-29T01:00:44          47.4            9           18 
+2019-03-29T02:00:44          47.1           11           18 
+2019-03-29T03:00:44          47.5            7           17 
+2019-03-29T04:00:44            47            6           17 
+2019-03-29T05:00:44          47.4            7           18 
+2019-03-29T06:00:44          47.8            9           18 
+2019-03-29T07:00:44          48.3            6           18 
+2019-03-29T08:00:44          48.1           13           18 
+2019-03-29T09:00:44          48.3           11           19 
+2019-03-29T10:00:44          47.3           11           20 
+2019-03-29T11:00:44          45.9           13           22 
+2019-03-29T12:00:44          45.4           20           23 
+2019-03-29T13:00:44          44.2           30           24 
+2019-03-29T14:00:44          43.1           30           24 
+2019-03-29T15:00:44            43           20           25 
+2019-03-29T16:00:44          42.4           24           25 
+2019-03-29T17:00:44          43.8           22           24 
+2019-03-29T18:00:44          44.1           20           23 
+2019-03-29T19:00:44          45.1           19           22 
+2019-03-29T20:00:44          43.9           13           21 
+2019-03-29T21:00:44          42.6            9           20 
+2019-03-29T22:00:44          43.1            9           20 
+2019-03-29T23:00:44          42.9           15           19 
+2019-03-30T00:00:44          44.1            9           19 
+2019-03-30T01:00:44          44.5           11           18 
+2019-03-30T02:00:44          45.4            7           17 
+2019-03-30T03:00:44          45.4           11           18 
+2019-03-30T04:00:44          45.1            9           17 
+2019-03-30T05:00:44          45.6            9           18 
+2019-03-30T06:00:44          45.9           17           18 
+2019-03-30T07:00:44          46.2            6           18 
+2019-03-30T08:00:44          47.3            9           18 
+2019-03-30T09:00:44          46.4           11           18 
+2019-03-30T10:00:44          48.1           13           19 
+2019-03-30T11:00:44            47           11           20 
+2019-03-30T12:00:44          46.4           19           22 
+2019-03-30T13:00:44          44.6           26           23 
+2019-03-30T14:00:44          44.3           26           23 
+2019-03-30T15:00:44          42.8           28           23 
+2019-03-30T16:00:44          41.3           28           25 
+2019-03-30T17:00:44            42           28           24 
+2019-03-30T18:00:44          43.7           24           23 
+2019-03-30T19:00:44          40.4           22           22 
+2019-03-30T20:00:44          42.4           17           21 
+2019-03-30T21:00:44            44           15           20 
+2019-03-30T22:00:44          42.5           19           19 
+2019-03-30T23:00:44          43.7           11           19 
+2019-03-31T00:00:44          44.3            9           18 
+2019-03-31T01:00:44          45.9            9           18 
+2019-03-31T02:00:44          45.6            9           18 
+2019-03-31T03:00:44          45.6            9           18 
+2019-03-31T04:00:44            46            7           18 
+2019-03-31T05:00:44          46.4            9           18 
+2019-03-31T06:00:44          45.1            9           18 
+2019-03-31T07:00:44          46.4            9           17 
+2019-03-31T08:00:44          45.6           11           18 
+2019-03-31T09:00:44          49.6           13           18 
+2019-03-31T10:00:44          49.4            7           20 
+2019-03-31T11:00:44          50.4           28           22 
+2019-03-31T12:00:44          49.2           33           24 
+2019-03-31T13:00:44          46.7           28           24 
+2019-03-31T14:00:44          45.2           28           24 
+2019-03-31T15:00:44          44.8           31           25 
+2019-03-31T16:00:44          40.8           35           24 
+2019-03-31T17:00:44          44.8           31           25 
+2019-03-31T18:00:44          45.9           30           24 
+2019-03-31T19:00:44          47.1           33           22 
+2019-03-31T20:00:44          45.6           26           22 
+2019-03-31T21:00:44          46.9           26           21 
+2019-03-31T22:00:44          46.9           20           21 
+2019-03-31T23:00:44          45.9           20           21 
+2019-04-01T00:00:44          46.6           20           21 
+2019-04-01T01:00:44            47           24           21 
+2019-04-01T02:00:44          47.3           22           21 
+2019-04-01T03:00:44          48.2           20           21 
+2019-04-01T04:00:44          48.2           26           21 
+2019-04-01T05:00:44          49.5           28           21 
+2019-04-01T06:00:44          48.9           28           21 
+2019-04-01T07:00:44          50.1           26           20 
+2019-04-01T08:00:44          49.9           22           20 
+2019-04-01T09:00:44          50.1           26           20 
+2019-04-01T10:00:44          50.9           28           20 
+2019-04-01T11:00:44          50.3           31           21 
+2019-04-01T12:00:44          49.8           26           21 
+2019-04-01T13:00:44          49.9           31           21 
+2019-04-01T14:00:44          48.4           31           21 
+2019-04-01T15:00:44          48.2           33           22 
+2019-04-01T16:00:44          48.7           26           22 
+2019-04-01T17:00:44          48.8           30           21 
+2019-04-01T18:00:44          48.4           11           22 
+2019-04-01T19:00:44          48.7            9           22 
+2019-04-01T20:00:44          52.8           19           21 
+2019-04-01T21:00:44          48.8           13           20 
+2019-04-01T22:00:44          47.5           15           20 
+2019-04-01T23:00:44          47.6           13           19 
+2019-04-02T00:00:44          48.2           15           19 
+2019-04-02T01:00:44          48.4            9           19 
+2019-04-02T02:00:44          48.5            9           19 
+2019-04-02T03:00:44          46.7           13           19 
+2019-04-02T04:00:44          48.1           20           19 
+2019-04-02T05:00:44          46.6           20           18 
+2019-04-02T06:00:44          48.4           11           18 
+2019-04-02T07:00:44          48.6            9           17 
+2019-04-02T08:00:44          49.7           19           18 
+2019-04-02T09:00:44          47.6           17           18 
+2019-04-02T10:00:44          48.6           20           19 
+2019-04-02T11:00:44          47.3           22           20 
+2019-04-02T12:00:44          45.8           28           20 
+2019-04-02T13:00:44          44.6           26           20 
+2019-04-02T14:00:44          43.9           26           20 
+2019-04-02T15:00:44          43.1           33           20 
+2019-04-02T16:00:44            39           31           21 
+2019-04-02T17:00:44          42.9           30           20 
+2019-04-02T18:00:44          42.6           28           19 
+2019-04-02T19:00:44          41.5           30           18 
+2019-04-02T20:00:44            42           24           17 
+2019-04-02T21:00:44          42.4           26           17 
+2019-04-02T22:00:44          42.8           20           17 
+2019-04-02T23:00:44          43.1           15           17 
+2019-04-03T00:00:44          43.6            9           16 
+2019-04-03T01:00:44          43.7            9           16 
+2019-04-03T02:00:44            44            6           15 
+2019-04-03T03:00:44          44.3            7           14 
+2019-04-03T04:00:44          43.8           15           15 
+2019-04-03T05:00:44            44           13           15 
+2019-04-03T06:00:44          41.4           13           14 
+2019-04-03T07:00:44          42.9            9           14 
+2019-04-03T08:00:44          44.8           11           14 
+2019-04-03T09:00:44          44.4           15           14 
+2019-04-03T10:00:44          44.1           15           16 
+2019-04-03T11:00:44          45.2           11           17 
+2019-04-03T12:00:44          45.4           11           19 
+2019-04-03T13:00:44          45.2           11           19 
+2019-04-03T14:00:44            45           11           19 
+2019-04-03T15:00:44          45.3            2           18 
+2019-04-03T16:00:44          45.2            2           19 
+2019-04-03T17:00:44          45.4            7           19 
+2019-04-03T18:00:44          47.6            6           19 
+2019-04-03T19:00:44          46.8            4           18 
+2019-04-03T20:00:44          45.1            0           17 
+2019-04-03T21:00:44          43.1            4           17 
+2019-04-03T22:00:44          43.4            7           17 
+2019-04-03T23:00:44          44.6            9           17 
+2019-04-04T00:00:44          46.9            7           16 
+2019-04-04T01:00:44          46.2            7           16 
+2019-04-04T02:00:44          45.6            7           16 
+2019-04-04T03:00:44          45.3            9           16 
+2019-04-04T04:00:44          45.6            9           15 
+2019-04-04T05:00:44          45.2           13           15 
+2019-04-04T06:00:44          46.6           11           14 
+2019-04-04T07:00:44          46.6           11           14 
+2019-04-04T08:00:44          45.8            6           13 
+2019-04-04T09:00:44          47.3            4           14 
+2019-04-04T10:00:44          46.2            7           15 
+2019-04-04T11:00:44          47.3            6           17 
+2019-04-04T12:00:44          47.2            9           18 
+2019-04-04T13:00:44          46.8            7           19 
+2019-04-04T14:00:44            44            7           19 
+2019-04-04T15:00:44          43.1            7           20 
+2019-04-04T16:00:44          43.6           13           21 
+2019-04-04T17:00:44          42.8           19           20 
+2019-04-04T18:00:44            44           19           19 
+2019-04-04T19:00:44          44.1           15           19 
+2019-04-04T20:00:44            44           19           17 
+2019-04-04T21:00:44          44.4           20           17 
+2019-04-04T22:00:44          43.2           20           17 
+2019-04-04T23:00:44          43.8           19           17 
+2019-04-05T00:00:44          45.7           15           17 
+2019-04-05T01:00:44          43.4           17           17 
+2019-04-05T02:00:44          44.6           17           16 
+2019-04-05T03:00:44          44.8            9           15 
+2019-04-05T04:00:44          44.4            7           15 
+2019-04-05T05:00:44          44.8            7           14 
+2019-04-05T06:00:44          44.3            6           13 
+2019-04-05T07:00:44          45.8            6           12 
+2019-04-05T08:00:44          46.6            6           12 
+2019-04-05T09:00:44          45.5            4           14 
+2019-04-05T10:00:44          45.3            6           14 
+2019-04-05T11:00:44          45.4            6           16 
+2019-04-05T12:00:44            45           11           17 
+2019-04-05T13:00:44          44.1            9           19 
+2019-04-05T14:00:44          43.5            9           19 
+2019-04-05T15:00:44          42.3           13           20 
+2019-04-05T16:00:44          41.4           17           21 
+2019-04-05T17:00:44            42           19           21 
+2019-04-05T18:00:44          42.8           15           20 
+2019-04-05T19:00:44          42.9           17           19 
+2019-04-05T20:00:44          41.5           15           18 
+2019-04-05T21:00:44          41.3           13           17 
+2019-04-05T22:00:44          42.1            7           17 
+2019-04-05T23:00:44          41.9            4           16 
+2019-04-06T00:00:44          42.7            2           15 
+2019-04-06T01:00:44          43.2            4           16 
+2019-04-06T02:00:44          43.5            7           16 
+2019-04-06T03:00:44          44.1            9           16 
+2019-04-06T04:00:44          43.8            6           15 
+2019-04-06T05:00:44          43.3            4           15 
+2019-04-06T06:00:44          44.2            7           15 
+2019-04-06T07:00:44          44.6           11           14 
+2019-04-06T08:00:44          45.3            6           14 
+2019-04-06T09:00:44          43.6            7           14 
+2019-04-06T10:00:44          45.4            7           14 
+2019-04-06T11:00:44          45.2            7           15 
+2019-04-06T12:00:44          45.6            7           15 
+2019-04-06T13:00:44          45.9            7           15 
+2019-04-06T14:00:44          45.3            7           15 
+2019-04-06T15:00:44          46.5            6           16 
+2019-04-06T16:00:44          46.5            4           17 
+2019-04-06T17:00:44          46.4           11           18 
+2019-04-06T18:00:44          47.8            9           18 
+2019-04-06T19:00:44          46.4            2           18 
+2019-04-06T20:00:44          45.8            9           16 
+2019-04-06T21:00:44          44.9           11           16 
+2019-04-06T22:00:44          44.9            7           15 
+2019-04-06T23:00:44          44.5            6           15 
+2019-04-07T00:00:44          45.8            5           16 
+2019-04-07T01:00:44          45.8            2           14 
+2019-04-07T02:00:44         46.15          6.5         14.5 
+2019-04-07T02:00:44          46.5           11           15 
+2019-04-07T03:00:44          45.1            6           15 
+2019-04-07T04:00:44          45.7            6           14 
+2019-04-07T05:00:44          46.1            4           13 
+2019-04-07T06:00:44          44.8           15           12 
+2019-04-07T07:00:44          43.8           15           12 
+2019-04-07T08:00:44          45.7           11           12 
+2019-04-07T09:00:44          45.7           11           12 
+2019-04-07T10:00:44          46.1            9           13 
+2019-04-07T11:00:44          47.4            9           15 
+2019-04-07T12:00:44          49.4           17           16 
+2019-04-07T13:00:44          45.9           22           17 
+2019-04-07T14:00:44          44.2           22           17 
+2019-04-07T15:00:44          43.4           28           18 
+2019-04-07T16:00:44          42.4           26           18 
+2019-04-07T17:00:44          41.2           22           18 
+2019-04-07T18:00:44          38.8           22           17 
+2019-04-07T19:00:44          39.5           22           16 
+2019-04-07T20:00:44          41.6           24           15 
+2019-04-07T21:00:44          40.7           11           14 
+2019-04-07T22:00:44          42.4           15           15 
+2019-04-07T23:00:44          41.3            9           15 
+2019-04-08T00:00:44          42.3           11           15 
+2019-04-08T01:00:44          42.9           11           15 
+2019-04-08T02:00:44          43.1           11           14 
+2019-04-08T03:00:44          42.7           15           14 
+2019-04-08T04:00:44          43.3           13           13 
+2019-04-08T05:00:44          42.7            6           11 
+2019-04-08T06:00:44          43.2            6           11 
+2019-04-08T07:00:44          43.2            6           11 
+2019-04-08T08:00:44          43.8           11           10 
+2019-04-08T09:00:44          44.2            2           10 
+2019-04-08T10:00:44            46            6           12 
+2019-04-08T11:00:44          45.4            6           14 
+2019-04-08T12:00:44          43.4            6           15 
+2019-04-08T13:00:44          44.6            7           17 
+2019-04-08T14:00:44            43            7           17 
+2019-04-08T15:00:44          42.5           30           19 
+2019-04-08T16:00:44          42.1           28           19 
+2019-04-08T17:00:44          40.6           30           19 
+2019-04-08T18:00:44          41.6           28           18 
+2019-04-08T19:00:44          41.5           28           18 
+2019-04-08T20:00:44          44.2           22           17 
+2019-04-08T21:00:44          42.3           19           17 
+2019-04-08T22:00:44          41.8           19           17 
+2019-04-08T23:00:44          43.3           19           17 
+2019-04-09T00:00:44          42.7           20           17 
+2019-04-09T01:00:44          43.4           19           17 
+2019-04-09T02:00:44          43.7           22           17 
+2019-04-09T03:00:44          43.7           22           17 
+2019-04-09T04:00:44          44.1           20           16 
+2019-04-09T05:00:44          43.5            9           15 
+2019-04-09T06:00:44          43.8            4           14 
+2019-04-09T07:00:44          43.6            2           13 
+2019-04-09T08:00:44          44.6            6           11 
+2019-04-09T09:00:44          44.4            4           13 
+2019-04-09T10:00:44          45.5            6           15 
+2019-04-09T11:00:44          45.7            6           17 
+2019-04-09T12:00:44          43.9            7           18 
+2019-04-09T13:00:44          43.5           13           20 
+2019-04-09T14:00:44          45.4           13           20 
+2019-04-09T15:00:44          41.9           22           20 
+2019-04-09T16:00:44          42.1           22           21 
+2019-04-09T17:00:44          39.4           20           20 
+2019-04-09T18:00:44          41.6           22           19 
+2019-04-09T19:00:44          42.4           20           19 
+2019-04-09T20:00:44          42.7           19           17 
+2019-04-09T21:00:44          42.6           11           16 
+2019-04-09T22:00:44          42.3           11           15 
+2019-04-09T23:00:44          43.2            7           14 
+2019-04-10T00:00:44          43.7            9           15 
+2019-04-10T01:00:44          43.9           11           15 
+2019-04-10T02:00:44          43.7            9           15 
+2019-04-10T03:00:44          43.5            4           14 
+2019-04-10T04:00:44          43.6            6           13 
+2019-04-10T05:00:44          43.7            6           13 
+2019-04-10T06:00:44          43.4            7           12 
+2019-04-10T07:00:44          43.3            6           11 
+2019-04-10T08:00:44          44.9            2           11 
+2019-04-10T09:00:44          44.5            7           12 
+2019-04-10T10:00:44          44.1            9           16 
+2019-04-10T11:00:44          45.8           11           18 
+2019-04-10T12:00:44          46.8            9           20 
+2019-04-10T13:00:44            46            7           21 
+2019-04-10T14:00:44          45.2            7           21 
+2019-04-10T15:00:44          43.2            9           21 
+2019-04-10T16:00:44          43.4           11           21 
+2019-04-10T17:00:44          41.8           11           21 
+2019-04-10T18:00:44          41.1           13           20 
+2019-04-10T19:00:44          41.2           13           20 
+2019-04-10T20:00:44          42.6           13           19 
+2019-04-10T21:00:44            43            9           18 
+2019-04-10T22:00:44          42.6            6           16 
+2019-04-10T23:00:44          42.3            6           16 
+2019-04-11T00:00:44          43.7            9           15 
+2019-04-11T01:00:44          44.1            6           14 
+2019-04-11T02:00:44          44.1            9           14 
+2019-04-11T03:00:44          44.3            9           14 
+2019-04-11T04:00:44          43.9            9           14 
+2019-04-11T05:00:44            44            7           13 
+2019-04-11T06:00:44            43           11           15 
+2019-04-11T07:00:44          43.7           13           16 
+2019-04-11T08:00:44            45            7           16 
+2019-04-11T09:00:44          44.4           13           17 
+2019-04-11T10:00:44          45.8           19           18 
+2019-04-11T11:00:44          45.6           22           19 
+2019-04-11T12:00:44          45.9           15           18 
+2019-04-11T13:00:44            48           11           16 
+2019-04-11T14:00:44          48.9           11           16 
+2019-04-11T15:00:44          47.6           31           21 
+2019-04-11T16:00:44          45.9           33           16 
+2019-04-11T17:00:44          45.9           28           17 
+2019-04-11T18:00:44          45.7           39           17 
+2019-04-11T19:00:44          45.3           35           17 
+2019-04-11T20:00:44          43.4           19           16 
+2019-04-11T21:00:44          46.4           31           15 
+2019-04-11T22:00:44          45.1           20           15 
+2019-04-11T23:00:44          45.1           30           14 
+2019-04-12T00:00:44          44.1           37           16 
+2019-04-12T01:00:44          45.1           24           15 
+2019-04-12T02:00:44          45.3           37           15 
+2019-04-12T03:00:44          45.2           31           15 
+2019-04-12T04:00:44          45.3           31           16 
+2019-04-12T05:00:44          44.8           33           16 
+2019-04-12T06:00:44          44.7           35           16 
+2019-04-12T07:00:44          44.6           33           17 
+2019-04-12T08:00:44          44.8           33           16 
+2019-04-12T09:00:44          45.1           28           16 
+2019-04-12T10:00:44          44.5           26           17 
+2019-04-12T11:00:44          46.2           31           18 
+2019-04-12T12:00:44            46           22           17 
+2019-04-12T13:00:44          46.7           24           18 
+2019-04-12T14:00:44          45.6           24           18 
+2019-04-12T15:00:44          44.5           33           19 
+2019-04-12T16:00:44          45.4           28           18 
+2019-04-12T17:00:44          46.6           20           17 
+2019-04-12T18:00:44          44.6           20           17 
+2019-04-12T19:00:44          44.5           26           17 
+2019-04-12T20:00:44          47.4           15           16 
+2019-04-12T21:00:44          44.4           20           16 
+2019-04-12T22:00:44          44.2           17           16 
+2019-04-12T23:00:44          43.6           15           15 
+2019-04-13T00:00:44          44.3           17           16 
+2019-04-13T01:00:44            45            6           14 
+2019-04-13T02:00:44          44.3            9           14 
+2019-04-13T03:00:44          45.1            9           13 
+2019-04-13T04:00:44          45.3            9           13 
+2019-04-13T05:00:44          44.3           13           13 
+2019-04-13T06:00:44          44.1           17           12 
+2019-04-13T07:00:44          44.5           19           12 
+2019-04-13T08:00:44          44.9           15           12 
+2019-04-13T09:00:44          45.1           13           12 
+2019-04-13T10:00:44          44.6           13           13 
+2019-04-13T11:00:44          43.2           19           14 
+2019-04-13T12:00:44          41.9           17           15 
+2019-04-13T13:00:44          41.6           11           15 
+2019-04-13T14:00:44          39.4           11           15 
+2019-04-13T15:00:44          34.5           22           17 
+2019-04-13T16:00:44          37.7           26           17 
+2019-04-13T17:00:44          35.3           24           16 
+2019-04-13T18:00:44          37.3           24           16 
+2019-04-13T19:00:44          40.4           26           16 
+2019-04-13T20:00:44          40.8           22           15 
+2019-04-13T21:00:44          39.7           19           14 
+2019-04-13T22:00:44          40.3           13           14 
+2019-04-13T23:00:44          40.2            7           13 
+2019-04-14T00:00:44          39.5            7           12 
+2019-04-14T01:00:44          40.9            7           10 
+2019-04-14T02:00:44          41.4            6           10 
+2019-04-14T03:00:44          41.2            7           10 
+2019-04-14T04:00:44          41.4            6           10 
+2019-04-14T05:00:44          41.3            6            8 
+2019-04-14T06:00:44          41.4            4            9 
+2019-04-14T07:00:44          41.6            4            9 
+2019-04-14T08:00:44            42            6            8 
+2019-04-14T09:00:44          41.4            9           10 
+2019-04-14T10:00:44          42.7            6           12 
+2019-04-14T11:00:44          44.4            2           16 
+2019-04-14T12:00:44          46.3            9           17 
+2019-04-14T13:00:44          45.3           13           18 
+2019-04-14T14:00:44          46.5           13           18 
+2019-04-14T15:00:44            45           31           16 
+2019-04-14T16:00:44          44.2           19           17 
+2019-04-14T17:00:44          43.6           20           18 
+2019-04-14T18:00:44          42.2           20           19 
+2019-04-14T19:00:44          45.4           24           18 
+2019-04-14T20:00:44          43.3           19           17 
+2019-04-14T21:00:44          42.2            9           15 
+2019-04-14T22:00:44          43.3           11           15 
+2019-04-14T23:00:44          43.4            9           15 
+2019-04-15T00:00:44          43.2            9           15 
+2019-04-15T01:00:44          43.7            4           13 
+2019-04-15T02:00:44          45.4            6           12 
+2019-04-15T03:00:44          43.9            6           11 
+2019-04-15T04:00:44          43.6            6           11 
+2019-04-15T05:00:44          43.6            6           11 
+2019-04-15T06:00:44          43.5            6           11 
+2019-04-15T07:00:44          43.8            6           11 
+2019-04-15T08:00:44          44.3            6           11 
+2019-04-15T09:00:44          43.6            6           11 
+2019-04-15T10:00:44          44.4            7           13 
+2019-04-15T11:00:44          46.1            7           15 
+2019-04-15T12:00:44          46.7            7           15 
+2019-04-15T13:00:44          46.7            9           18 
+2019-04-15T14:00:44          46.5            9           18 
+2019-04-15T15:00:44            45           13           19 
+2019-04-15T16:00:44          42.4            5           19 
+2019-04-15T17:00:44          43.5           19           19 
+2019-04-15T18:00:44          42.5           19           18 
+2019-04-15T19:00:44          45.3           19           17 
+2019-04-15T20:00:44          44.7           17           16 
+2019-04-15T21:00:44          44.3           15           15 
+2019-04-15T22:00:44          43.7            9           14 
+2019-04-15T23:00:44          43.4            0           13 
+2019-04-16T00:00:44          43.9            4           12 
+2019-04-16T01:00:44            44            0           11 
+2019-04-16T02:00:44          44.5            2           11 
+2019-04-16T03:00:44          43.1            4            9 
+2019-04-16T04:00:44          44.1            4            9 
+2019-04-16T05:00:44          43.5            6           10 
+2019-04-16T06:00:44          43.2            6            9 
+2019-04-16T07:00:44          43.9            6           10 
+2019-04-16T08:00:44          44.3            6            9 
+2019-04-16T09:00:44          43.2            6           10 
+2019-04-16T10:00:44          43.7            7           12 
+2019-04-16T11:00:44          44.8            4           13 
+2019-04-16T12:00:44          47.1            7           15 
+2019-04-16T13:00:44          46.3            6           17 
+2019-04-16T14:00:44          45.3            6           17 
+2019-04-16T15:00:44          43.8            9           19 
+2019-04-16T16:00:44          43.9            9           19 
+2019-04-16T17:00:44          41.9            7           20 
+2019-04-16T18:00:44          42.8            9           19 
+2019-04-16T19:00:44          43.4           15           17 
+2019-04-16T20:00:44          42.3           15           16 
+2019-04-16T21:00:44          44.5           13           15 
+2019-04-16T22:00:44          44.2            7           14 
+2019-04-16T23:00:44          43.8            9           14 
+2019-04-17T00:00:44          43.6            0           13 
+2019-04-17T01:00:44          45.3            0           12 
+2019-04-17T02:00:44          42.8            2           11 
+2019-04-17T03:00:44          44.2            4           11 
+2019-04-17T04:00:44            44            4           10 
+2019-04-17T05:00:44            45            6           10 
+2019-04-17T06:00:44          43.5            2           10 
+2019-04-17T07:00:44          42.9            6           11 
+2019-04-17T08:00:44          45.1            6           10 
+2019-04-17T09:00:44          43.9            2           10 
+2019-04-17T10:00:44          45.8            4           13 
+2019-04-17T11:00:44          44.1            6           14 
+2019-04-17T12:00:44          45.1            6           16 
+2019-04-17T13:00:44          44.5            6           17 
+2019-04-17T14:00:44          43.5            6           17 
+2019-04-17T15:00:44          42.5           11           19 
+2019-04-17T16:00:44            43           15           19 
+2019-04-17T17:00:44          40.9           13           19 
+2019-04-17T18:00:44            42           13           19 
+2019-04-17T19:00:44          41.3            9           18 
+2019-04-17T20:00:44          44.4            9           17 
+2019-04-17T21:00:44          41.8            2           17 
+2019-04-17T22:00:44          41.9            9           16 
+2019-04-17T23:00:44            41            6           15 
+2019-04-18T00:00:44          42.5            4           14 
+2019-04-18T01:00:44          43.4            9           13 
+2019-04-18T02:00:44          43.6            7           12 
+2019-04-18T03:00:44          44.4            2           11 
+2019-04-18T04:00:44          45.3            7           10 
+2019-04-18T05:00:44          43.3            6           10 
+2019-04-18T06:00:44          43.8            6           10 
+2019-04-18T07:00:44          43.6            6           10 
+2019-04-18T08:00:44          44.9            9           10 
+2019-04-18T09:00:44          44.2            9           10 
+2019-04-18T10:00:44          43.8            7           12 
+2019-04-18T11:00:44          43.7            6           14 
+2019-04-18T12:00:44         43.85          9.5           16 
+2019-04-18T13:00:44            44           13           18 
+2019-04-18T14:00:44            43           13           18 
+2019-04-18T15:00:44            44            9           19 
+2019-04-18T16:00:44          42.3            7           19 
+2019-04-18T17:00:44          40.1            7           19 
+2019-04-18T18:00:44            42            7           19 
+2019-04-18T19:00:44          42.2            7           17 
+2019-04-18T20:00:44          43.1            6           16 
+2019-04-18T21:00:44          39.9            7           16 
+2019-04-18T22:00:44          42.1            7           15 
+2019-04-18T23:00:44          41.2            9           14 
+2019-04-19T00:00:44          42.2            6           14 
+2019-04-19T01:00:44          42.4            7           13 
+2019-04-19T02:00:44            43            6           14 
+2019-04-19T03:00:44          42.7            4           12 
+2019-04-19T04:00:44          42.9            6           11 
+2019-04-19T05:00:44          44.8            4           10 
+2019-04-19T06:00:44          42.9            9           10 
+2019-04-19T07:00:44          42.8            6            9 
+2019-04-19T08:00:44          42.8            4            9 
+2019-04-19T09:00:44          43.2            6           10 
+2019-04-19T10:00:44          43.4            4           12 
+2019-04-19T11:00:44          44.6            4           14 
+2019-04-19T12:00:44          47.5            6           15 
+2019-04-19T13:00:44          44.9            7           17 
+2019-04-19T14:00:44          42.6            7           17 
+2019-04-19T15:00:44          42.1            6           20 
+2019-04-19T16:00:44          36.9            9           20 
+2019-04-19T17:00:44          39.3            6           20 
+2019-04-19T18:00:44          40.9            7           20 
+2019-04-19T19:00:44          40.5            9           17 
+2019-04-19T20:00:44          41.9           11           16 
+2019-04-19T21:00:44          42.1            0           15 
+2019-04-19T22:00:44          41.8            0           15 
+2019-04-19T23:00:44          41.2            2           14 
+2019-04-20T00:00:44          42.2            0           13 
+2019-04-20T01:00:44          42.5            6           13 
+2019-04-20T02:00:44          42.7            2           12 
+2019-04-20T03:00:44          42.3            2           11 
+2019-04-20T04:00:44          42.5            2           11 
+2019-04-20T05:00:44          42.7            4           10 
+2019-04-20T06:00:44          43.3            0           10 
+2019-04-20T07:00:44          42.6            2            9 
+2019-04-20T08:00:44          40.1            4            9 
+2019-04-20T09:00:44          42.3            7            9 
+2019-04-20T10:00:44          42.9            6           12 
+2019-04-20T11:00:44          48.8            4           14 
+2019-04-20T12:00:44          46.2            4           15 
+2019-04-20T13:00:44          44.3            7           17 
+2019-04-20T14:00:44          41.5            7           17 
+2019-04-20T15:00:44            42            7           19 
+2019-04-20T16:00:44          43.1            7           20 
+2019-04-20T17:00:44            42            9           20 
+2019-04-20T18:00:44          41.5            9           20 
+2019-04-20T19:00:44          42.4            9           18 
+2019-04-20T20:00:44          41.2            9           16 
+2019-04-20T21:00:44          40.5            6           16 
+2019-04-20T22:00:44          40.8            2           14 
+2019-04-20T23:00:44          41.6            4           14 
+2019-04-21T00:00:44          41.7            6           14 
+2019-04-21T01:00:44            43            4           13 
+2019-04-21T02:00:44          42.9            2           13 
+2019-04-21T03:00:44          43.2            4           12 
+2019-04-21T04:00:44          42.1            2           12 
+2019-04-21T05:00:44          42.9            0           11 
+2019-04-21T06:00:44          39.9            7           10 
+2019-04-21T07:00:44          43.3            4           10 
+2019-04-21T08:00:44            43            0           10 
+2019-04-21T09:00:44            43            4           11 
+2019-04-21T10:00:44          44.4            0           13 
+2019-04-21T11:00:44          45.3            4           16 
+2019-04-21T12:00:44          47.9            4           18 
+2019-04-21T13:00:44          46.2           13           21 
+2019-04-21T14:00:44          46.9           13           21 
+2019-04-21T15:00:44          44.5           22           21 
+2019-04-21T16:00:44            42           24           21 
+2019-04-21T17:00:44          42.4           26           21 
+2019-04-21T18:00:44          43.4           31           20 
+2019-04-21T19:00:44          43.2           28           19 
+2019-04-21T20:00:44          42.3           19           18 
+2019-04-21T21:00:44          42.7           20           19 
+2019-04-21T22:00:44          43.2           20           18 
+2019-04-21T23:00:44          42.8           24           18 
+2019-04-22T00:00:44          43.1           15           18 
+2019-04-22T01:00:44          47.1           19           18 
+2019-04-22T02:00:44          43.7           19           18 
+2019-04-22T03:00:44            44           24           16 
+2019-04-22T04:00:44            44           11           16 
+2019-04-22T05:00:44          44.5           11           17 
+2019-04-22T06:00:44          44.7            6           16 
+2019-04-22T07:00:44          42.5            9           16 
+2019-04-22T08:00:44          44.7            6           15 
+2019-04-22T09:00:44          44.8            7           15 
+2019-04-22T10:00:44          45.2            6           15 
+2019-04-22T11:00:44          45.5            0           16 
+2019-04-22T12:00:44          46.4            7           16 
+2019-04-22T13:00:44          46.4            9           17 
+2019-04-22T14:00:44            47            9           17 
+2019-04-22T15:00:44          46.8           17           16 
+2019-04-22T16:00:44          46.6            9           16 
+2019-04-22T17:00:44          46.2            6           15 
+2019-04-22T18:00:44          46.7           13           14 
+2019-04-22T19:00:44          49.9            9           14 
+2019-04-22T20:00:44          47.8           11           14 
+2019-04-22T21:00:44          46.4            6           13 
+2019-04-22T22:00:44          47.4            4           13 
+2019-04-22T23:00:44          45.4            4           13 
+2019-04-23T00:00:44          46.2            2           12 
+2019-04-23T01:00:44          46.4            0           12 
+2019-04-23T02:00:44          45.9            7           13 
+2019-04-23T03:00:44          46.8            6           12 
+2019-04-23T04:00:44          46.9            4           13 
+2019-04-23T05:00:44          48.8            2           13 
+2019-04-23T06:00:44          46.1            2           12 
+2019-04-23T07:00:44          44.4            7           12 
+2019-04-23T08:00:44          46.6            6           12 
+2019-04-23T09:00:44          46.5            2           11 
+2019-04-23T10:00:44          45.5            2           11 
+2019-04-23T11:00:44          46.2            4           13 
+2019-04-23T12:00:44          48.8            4           15 
+2019-04-23T13:00:44          48.7            9           16 
+2019-04-23T14:00:44          47.5            9           16 
+2019-04-23T15:00:44          47.1           13           18 
+2019-04-23T16:00:44          44.4            9           19 
+2019-04-23T17:00:44          46.3           13           19 
+2019-04-23T18:00:44          46.2           20           16 
+2019-04-23T19:00:44          46.6           13           16 
+2019-04-23T20:00:44          45.5           11           16 
+2019-04-23T21:00:44          44.7            9           15 
+2019-04-23T22:00:44          45.3           11           15 
+2019-04-23T23:00:44          44.9            2           14 
+2019-04-24T00:00:44          45.1            2           13 
+2019-04-24T01:00:44          45.7            2           13 
+2019-04-24T02:00:44          45.7            0           13 
+2019-04-24T03:00:44          45.2            4           13 
+2019-04-24T04:00:44          45.9            6           13 
+2019-04-24T05:00:44          45.3            0           12 
+2019-04-24T06:00:44          45.6            4           13 
+2019-04-24T07:00:44          45.3            2           11 
+2019-04-24T08:00:44            46            4           12 
+2019-04-24T09:00:44          46.5            7           12 
+2019-04-24T10:00:44          48.2            6           14 
+2019-04-24T11:00:44          49.1            7           16 
+2019-04-24T12:00:44          48.9           11           18 
+2019-04-24T13:00:44          48.3           26           19 
+2019-04-24T14:00:44          47.6           26           19 
+2019-04-24T15:00:44          45.5           30           19 
+2019-04-24T16:00:44            41           28           19 
+2019-04-24T17:00:44            45           31           19 
+2019-04-24T18:00:44          47.2           30           18 
+2019-04-24T19:00:44          47.7           28           17 
+2019-04-24T20:00:44          44.7           28           17 
+2019-04-24T21:00:44          44.2           24           17 
+2019-04-24T22:00:44          44.4           20           17 
+2019-04-24T23:00:44          45.1           19           17 
+2019-04-25T00:00:44          44.8           19           17 
+2019-04-25T01:00:44          45.6           17           17 
+2019-04-25T02:00:44          45.4           19           17 
+2019-04-25T03:00:44         45.55         19.5           17 
+2019-04-25T04:00:44          45.7           20           17 
+2019-04-25T05:00:44          45.5           19           17 
+2019-04-25T06:00:44          45.5           15           16 
+2019-04-25T07:00:44          47.5           15           16 
+2019-04-25T08:00:44          45.8            9           15 
+2019-04-25T09:00:44          43.8            9           15 
+2019-04-25T10:00:44         45.85           11         16.5 
+2019-04-25T11:00:44          47.9           13           18 
+2019-04-25T12:00:44          49.9            7           18 
+2019-04-25T13:00:44          47.7           22           20 
+2019-04-25T14:00:44          46.7           22           20 
+2019-04-25T15:00:44          47.6           19           20 
+2019-04-25T16:00:44          45.4           22           19 
+2019-04-25T17:00:44          43.9           22           19 
+2019-04-25T18:00:44          44.9           20           18 
+2019-04-25T19:00:44          45.4           22           18 
+2019-04-25T20:00:44          43.1           24           18 
+2019-04-25T21:00:44          44.5           20           17 
+2019-04-25T22:00:44          44.5           20           17 
+2019-04-25T23:00:44          44.1           20           17 
+2019-04-26T00:00:44          46.2           20           17 
+2019-04-26T01:00:44          44.7           28           17 
+2019-04-26T02:00:44          45.6           22           17 
+2019-04-26T03:00:44            47           26           17 
+2019-04-26T04:00:44*       46.3362      25.0074       16.917 
+2019-04-26T05:00:44*       46.8165      24.1662      17.6166 
+2019-04-26T06:00:44*       47.3333      26.6929      17.2378 
+2019-04-26T07:00:44*       46.2912      25.0224      16.9808 
+2019-04-26T08:00:44*       46.8107      23.8444      17.6447 
+2019-04-26T09:00:44*       46.5995      21.3433      18.7444 
+2019-04-26T10:00:44*       46.6894      25.0946      19.4329 
+2019-04-26T11:00:44*         47.27      25.7032      20.7059 
+2019-04-26T12:00:44*       48.6298      23.3256      21.3963 
+2019-04-26T13:00:44*       47.1711      26.8284      21.5369 
+2019-04-26T14:00:44*       46.3602      27.6054      22.2585 
+2019-04-26T15:00:44*       47.0381      25.8918       22.194 
+2019-04-26T16:00:44*       46.0652      26.5946      21.7055 
+2019-04-26T17:00:44*       46.8026      27.5981      21.5774 
+2019-04-26T18:00:44*       47.0752      24.9248      20.8758 
+2019-04-26T19:00:44*        46.343       23.971      19.8347 
+2019-04-26T20:00:44*       47.0011      25.2176      19.4237 
+2019-04-26T21:00:44*       46.5941      20.4053      18.7204 
+2019-04-26T22:00:44*       46.6349      22.5653      18.4345 
+2019-04-26T23:00:44*       46.6434      21.3707      18.0361 
+2019-04-27T00:00:44*       46.9092      19.4836      17.3206 
+2019-04-27T01:00:44*       46.8503      22.4143       16.997 
+2019-04-27T02:00:44*       47.1071      22.5189      16.4231 
+2019-04-27T03:00:44*       47.4881      22.1784      16.3732 
+2019-04-27T04:00:44*       47.4135      22.6807      16.3243 
+2019-04-27T05:00:44*       47.9707      22.2724      16.3614 
+2019-04-27T06:00:44*       48.4106      22.8672      16.7924 
+2019-04-27T07:00:44*       48.2589      24.2324      16.9077 
+2019-04-27T08:00:44*       48.3329      24.4362       17.686 
+2019-04-27T09:00:44*       48.9088      23.3585      18.6366 
+2019-04-27T10:00:44*        48.942      25.9971      19.6918 
+2019-04-27T11:00:44*       49.4035      26.9368      20.8234 
+2019-04-27T12:00:44*       50.0579      27.4048      21.7059 
+2019-04-27T13:00:44*       48.9498      30.2145      22.2836 
+2019-04-27T14:00:44*       48.3577      30.4086      22.7398 
+2019-04-27T15:00:44*       47.9151      31.0672      23.0325 
+2019-04-27T16:00:44*       47.5392      31.9606      22.8813 
+2019-04-27T17:00:44*       47.6661      31.4821      22.7919 
+2019-04-27T18:00:44*       47.8374      30.9948      22.5317 
+2019-04-27T19:00:44*       47.7926      30.9665      21.9826 
+2019-04-27T20:00:44*       47.6209      30.2333      21.6012 
+2019-04-27T21:00:44*       47.5161      29.0319      21.0848 
+2019-04-27T22:00:44*       47.3438      29.0208      20.6222 
+2019-04-27T23:00:44*       47.3323      28.2849      20.1653 
+2019-04-28T00:00:44*       47.2932       27.961      19.5879 
+2019-04-28T01:00:44*       47.7185      28.6436      18.8477 
+2019-04-28T02:00:44*       47.8842      28.6975      18.2997 
+2019-04-28T03:00:44*       48.1537      28.5679      18.0229 
+2019-04-28T04:00:44*       48.1563      28.4823       17.836 
+2019-04-28T05:00:44*       48.5695      28.6986      17.9158 
+2019-04-28T06:00:44*       48.8192      28.6172      18.0902 
+2019-04-28T07:00:44*        48.759      29.7266      18.3802 
+2019-04-28T08:00:44*       48.9982      30.3397      19.0262 
+2019-04-28T09:00:44*       49.2642      30.4618      19.9307 
+2019-04-28T10:00:44*       49.5039      32.2176       20.966 
+2019-04-28T11:00:44*       50.0065      33.4343      22.0521 
+2019-04-28T12:00:44*       50.4285      34.6593      22.9766 
+2019-04-28T13:00:44*       49.6386      36.3709      23.7025 
+2019-04-28T14:00:44*       49.1327      37.3592       24.209 
+2019-04-28T15:00:44*       48.7393      38.0107      24.5176 
+2019-04-28T16:00:44*       48.4892      38.6522      24.6653 
+2019-04-28T17:00:44*       48.5323      38.7119       24.679 
+2019-04-28T18:00:44*       48.7873      38.4454      24.5643 
+2019-04-28T19:00:44*       48.8748      38.4427      24.2974 
+2019-04-28T20:00:44*       48.6827      38.1754      23.9169 
+2019-04-28T21:00:44*       48.5501      37.7143      23.4532 
+2019-04-28T22:00:44*       48.3314      37.3094      22.9468 
+2019-04-28T23:00:44*         48.17      36.8953      22.4001 
+2019-04-29T00:00:44*       48.1106      36.8236      21.7497 
+2019-04-29T01:00:44*       48.6898      37.2159      21.0061 
+2019-04-29T02:00:44*        48.952      37.2277      20.3997 
+2019-04-29T03:00:44*       49.1645       37.175      20.0207 
+
+=== Future predictions from end of test data ===
+Time                     Humidity   Wind Speed Outside Temp 
+2019-04-26T03:00:39          46.1           26           17 
+2019-04-26T04:00:39          45.5           24           17 
+2019-04-26T05:00:39          43.2           24           17 
+2019-04-26T06:00:39          47.3           28           17 
+2019-04-26T07:00:39          46.6           24           17 
+2019-04-26T08:00:39          45.1           24           17 
+2019-04-26T09:00:39          46.8           22           17 
+2019-04-26T10:00:39          47.1           24           18 
+2019-04-26T11:00:39          47.6           24           19 
+2019-04-26T12:00:39          48.1           28           19 
+2019-04-26T13:00:39          45.7           28           19 
+2019-04-26T14:00:39          46.1           28           20 
+2019-04-26T15:00:39          46.8           26           20 
+2019-04-26T16:00:39          46.2           26           20 
+2019-04-26T17:00:39          46.2           20           19 
+2019-04-26T18:00:39          45.1           17           18 
+2019-04-26T19:00:39          44.1           15           18 
+2019-04-26T20:00:39          45.8           15           18 
+2019-04-26T21:00:39          45.6           11           17 
+2019-04-26T22:00:39          45.5           11           17 
+2019-04-26T23:00:39          45.1            6           16 
+2019-04-27T00:00:39          46.5            4           16 
+2019-04-27T01:00:39          46.6            2           17 
+2019-04-27T02:00:39          46.6            4           17 
+2019-04-27T03:00:39          46.8            7           15 
+2019-04-27T04:00:39          46.6            7           14 
+2019-04-27T05:00:39          46.7            7           15 
+2019-04-27T06:00:39          47.4            7           16 
+2019-04-27T07:00:39          47.5            6           16 
+2019-04-27T08:00:39            48            9           16 
+2019-04-27T09:00:39          47.9           11           16 
+2019-04-27T10:00:39          49.7           15           18 
+2019-04-27T11:00:39          50.3           20           19 
+2019-04-27T12:00:39          51.6           17           21 
+2019-04-27T13:00:39            47           17           21 
+2019-04-27T14:00:39          48.5           13           21 
+2019-04-27T15:00:39          45.4           15           21 
+2019-04-27T16:00:39          45.3           15           21 
+2019-04-27T17:00:39          46.6           19           20 
+2019-04-27T18:00:39          47.1           15           19 
+2019-04-27T19:00:39          45.1            9           18 
+2019-04-27T20:00:39          44.4            7           18 
+2019-04-27T21:00:39          45.2            6           17 
+2019-04-27T22:00:39          44.7            9           17 
+2019-04-27T23:00:39          44.4            7           16 
+2019-04-28T00:00:39          45.3           11           16 
+2019-04-28T01:00:39          45.5           15           16 
+2019-04-28T02:00:39          45.4           11           15 
+2019-04-28T03:00:39            46           13           15 
+2019-04-28T04:00:39          46.4           13           16 
+2019-04-28T05:00:39            46           15           16 
+2019-04-28T06:00:39            46           15           16 
+2019-04-28T07:00:39            46            6           16 
+2019-04-28T08:00:39          47.4            9           16 
+2019-04-28T09:00:39          46.6           11           17 
+2019-04-28T10:00:39          47.4           13           17 
+2019-04-28T11:00:39          49.6           13           18 
+2019-04-28T12:00:39            51           19           19 
+2019-04-28T13:00:39          51.4           19           19 
+2019-04-28T14:00:39          53.6            9           18 
+2019-04-28T15:00:39          53.8           11           17 
+2019-04-28T16:00:39            50           11           18 
+2019-04-28T17:00:39          49.6           15           18 
+2019-04-28T18:00:39          49.6           13           17 
+2019-04-28T19:00:39          47.4            4           16 
+2019-04-28T20:00:39            41           11           18 
+2019-04-28T21:00:39          48.7            7           14 
+2019-04-28T22:00:39          46.5            7           14 
+2019-04-28T23:00:39          45.6           11           15 
+2019-04-29T00:00:39          47.3            7           14 
+2019-04-29T01:00:39          45.8            7           13 
+2019-04-29T02:00:39          46.7            9           12 
+2019-04-29T03:00:39          47.1           11           12 
+2019-04-29T04:00:39          46.6            9           13 
+2019-04-29T05:00:39          46.6           11           13 
+2019-04-29T06:00:39          46.8           13           13 
+2019-04-29T07:00:39          47.4           13           13 
+2019-04-29T08:00:39          46.8           13           13 
+2019-04-29T09:00:39          47.4           19           15 
+2019-04-29T10:00:39          50.2           24           17 
+2019-04-29T11:00:39          50.5           26           16 
+2019-04-29T12:00:39          51.8           15           15 
+2019-04-29T13:00:39          50.7           15           15 
+2019-04-29T14:00:39          50.4           26           17 
+2019-04-29T15:00:39            48           31           19 
+2019-04-29T16:00:39          47.4           35           18 
+2019-04-29T17:00:39          46.6           24           16 
+2019-04-29T18:00:39          47.7           31           16 
+2019-04-29T19:00:39          46.1           28           16 
+2019-04-29T20:00:39          47.5           24           16 
+2019-04-29T21:00:39          46.4           26           15 
+2019-04-29T22:00:39          45.8           33           16 
+2019-04-29T23:00:39          47.4           19           14 
+2019-04-30T00:00:39          46.8           33           15 
+2019-04-30T01:00:39          46.7           31           15 
+2019-04-30T02:00:39          46.8           30           15 
+2019-04-30T03:00:39          46.9           26           15 
+2019-04-30T04:00:39          47.2           28           15 
+2019-04-30T05:00:39          47.3           26           14 
+2019-04-30T06:00:39          46.9           17           13 
+2019-04-30T07:00:39          47.3           22           12 
+2019-04-30T08:00:39          46.9           22           12 
+2019-04-30T09:00:39          46.2           17           13 
+2019-04-30T10:00:39          46.4           15           14 
+2019-04-30T11:00:39          46.4           15           15 
+2019-04-30T12:00:39          44.9           13           16 
+2019-04-30T13:00:39          44.3           13           16 
+2019-04-30T14:00:39          43.1           19           17 
+2019-04-30T15:00:39          42.8           30           17 
+2019-04-30T16:00:39            42           26           16 
+2019-04-30T17:00:39          42.7           22           16 
+2019-04-30T18:00:39          42.9           24           15 
+2019-04-30T19:00:39          42.7           19           14 
+2019-04-30T20:00:39          43.3           15           13 
+2019-04-30T21:00:39          43.4            7           12 
+2019-04-30T22:00:39          43.8           11           11 
+2019-04-30T23:00:39          43.3           13           11 
+2019-05-01T00:00:39          44.1           11           11 
+2019-05-01T01:00:39          43.5            6           10 
+2019-05-01T02:00:39          43.4            7           10 
+2019-05-01T03:00:39          43.5            7            9 
+2019-05-01T04:00:39          43.2            9            8 
+2019-05-01T05:00:39            43            7            8 
+2019-05-01T06:00:39            40            7            8 
+2019-05-01T07:00:39          43.2            7            9 
+2019-05-01T08:00:39            43            9            8 
+2019-05-01T09:00:39          42.8            9           10 
+2019-05-01T10:00:39          43.8            7           11 
+2019-05-01T11:00:39          45.9            9           13 
+2019-05-01T12:00:39          45.1            9           14 
+2019-05-01T13:00:39          43.4            9           14 
+2019-05-01T14:00:39          40.6           17           16 
+2019-05-01T15:00:39          41.7           19           16 
+2019-05-01T16:00:39          41.4           20           16 
+2019-05-01T17:00:39          41.6           20           15 
+2019-05-01T18:00:39          42.2           19           14 
+2019-05-01T19:00:39          46.9           17           14 
+2019-05-01T20:00:39          38.7           13           13 
+2019-05-01T21:00:39          37.7            9           13 
+2019-05-01T22:00:39            37            6           12 
+2019-05-01T23:00:39          36.5            4           11 
+2019-05-02T00:00:39          35.8            2           10 
+2019-05-02T01:00:39            38            0           10 
+2019-05-02T02:00:39          38.6            2            9 
+2019-05-02T03:00:39          39.1            4            8 
+2019-05-02T04:00:39          36.5            2            8 
+2019-05-02T05:00:39          39.7            6            8 
+2019-05-02T06:00:39          39.6            4            8 
+2019-05-02T07:00:39          40.9            2            8 
+2019-05-02T08:00:39          40.8            6            9 
+2019-05-02T09:00:39          40.7            6           11 
+2019-05-02T10:00:39          42.6            6           12 
+2019-05-02T11:00:39          44.5            6           13 
+2019-05-02T12:00:39          44.6           11           15 
+2019-05-02T13:00:39          45.5           11           15 
+2019-05-02T14:00:39          43.6           15           17 
+2019-05-02T15:00:39          43.8           17           17 
+2019-05-02T16:00:39          43.5           20           18 
+2019-05-02T17:00:39          43.7           24           17 
+2019-05-02T18:00:39          43.7           20           17 
+2019-05-02T19:00:39          43.4           24           17 
+2019-05-02T20:00:39          43.5           19           17 
+2019-05-02T21:00:39          43.1           19           17 
+2019-05-02T22:00:39          43.5           19           16 
+2019-05-02T23:00:39          43.7           15           16 
+2019-05-03T00:00:39          44.1           17           16 
+2019-05-03T01:00:39          44.4           17           16 
+2019-05-03T02:00:39            45           13           15 
+2019-05-03T03:00:39          43.5            9           15 
+2019-05-03T04:00:39          44.5            2           14 
+2019-05-03T05:00:39          44.9            0           12 
+2019-05-03T06:00:39          44.8            2           12 
+2019-05-03T07:00:39          45.2            2           11 
+2019-05-03T08:00:39          46.5            2           11 
+2019-05-03T09:00:39          44.4            2           14 
+2019-05-03T10:00:39          45.2            4           15 
+2019-05-03T11:00:39          47.1            6           16 
+2019-05-03T12:00:39          48.7            9           17 
+2019-05-03T13:00:39            47            9           17 
+2019-05-03T14:00:39          45.4            9           19 
+2019-05-03T15:00:39          43.5           11           19 
+2019-05-03T16:00:39          43.9           15           19 
+2019-05-03T17:00:39          45.7           17           19 
+2019-05-03T18:00:39          44.5           19           17 
+2019-05-03T19:00:39          43.5           11           16 
+2019-05-03T20:00:39          43.2            7           15 
+2019-05-03T21:00:39          43.5            7           15 
+2019-05-03T22:00:39          43.1            4           15 
+2019-05-03T23:00:39          44.1            0           14 
+2019-05-04T00:00:39          44.8            6           13 
+2019-05-04T01:00:39          44.7            4           12 
+2019-05-04T02:00:39          44.8            4           12 
+2019-05-04T03:00:39          44.2            2           12 
+2019-05-04T04:00:39          44.3            0           13 
+2019-05-04T05:00:39          44.3            4           12 
+2019-05-04T06:00:39            41            0           12 
+2019-05-04T07:00:39            44            4           11 
+2019-05-04T08:00:39          43.1            2           11 
+2019-05-04T09:00:39          43.6            2           11 
+2019-05-04T10:00:39          45.6            4           12 
+2019-05-04T11:00:39          50.8            4           13 
+2019-05-04T12:00:39          50.2            6           14 
+2019-05-04T13:00:39          49.4            6           14 
+2019-05-04T14:00:39          44.7            6           16 
+2019-05-04T15:00:39          45.7            6           17 
+2019-05-04T16:00:39          45.4            9           19 
+2019-05-04T17:00:39          47.6            4           18 
+2019-05-04T18:00:39          45.3           11           17 
+2019-05-04T19:00:39          44.3            4           16 
+2019-05-04T20:00:39          44.2            4           14 
+2019-05-04T21:00:39          42.7            6           14 
+2019-05-04T22:00:39          40.1            2           14 
+2019-05-04T23:00:39          39.7            4           13 
+2019-05-05T00:00:39          39.8            2           13 
+2019-05-05T01:00:39          41.2            4           12 
+2019-05-05T02:00:39          41.3            4           12 
+2019-05-05T03:00:39          41.8            4           12 
+2019-05-05T04:00:39            42            4           11 
+2019-05-05T05:00:39          41.7            2           11 
+2019-05-05T06:00:39          42.2            4           11 
+2019-05-05T07:00:39          42.7            0            9 
+2019-05-05T08:00:39          42.1            4           11 
+2019-05-05T09:00:39          44.1            0           13 
+2019-05-05T10:00:39          44.7            6           14 
+2019-05-05T11:00:39          52.8            4           17 
+2019-05-05T12:00:39          48.9            4           18 
+2019-05-05T13:00:39            49            4           18 
+2019-05-05T14:00:39          47.1            6           19 
+2019-05-05T15:00:39          45.4            7           19 
+2019-05-05T16:00:39          44.4            6           19 
+2019-05-05T17:00:39          44.3            6           20 
+2019-05-05T18:00:39          45.2            9           16 
+2019-05-05T19:00:39          45.2            7           14 
+2019-05-05T20:00:39          43.4            4           14 
+2019-05-05T21:00:39          42.6            4           14 
+2019-05-05T22:00:39          43.2            2           13 
+2019-05-05T23:00:39            44            2           13 
+2019-05-06T00:00:39          44.7            2           12 
+2019-05-06T01:00:39          44.6            2           12 
+2019-05-06T02:00:39          47.1            0           12 
+2019-05-06T03:00:39          45.7            4           12 
+2019-05-06T04:00:39          45.2            2           11 
+2019-05-06T05:00:39          43.4            6           11 
+2019-05-06T06:00:39          44.9            6           11 
+2019-05-06T07:00:39          41.9            0           10 
+2019-05-06T08:00:39          44.8            4           10 
+2019-05-06T09:00:39            48            6           12 
+2019-05-06T10:00:39          46.5            0           14 
+2019-05-06T11:00:39          47.6            7           14 
+2019-05-06T12:00:39          47.7            2           16 
+2019-05-06T13:00:39          49.9            2           16 
+2019-05-06T14:00:39          48.9           13           19 
+2019-05-06T15:00:39          48.3           13           19 
+2019-05-06T16:00:39          47.6            9           19 
+2019-05-06T17:00:39          47.3            7           18 
+2019-05-06T18:00:39          46.9            6           16 
+2019-05-06T19:00:39          46.2            6           15 
+2019-05-06T20:00:39            41            4           15 
+2019-05-06T21:00:39          43.4            4           14 
+2019-05-06T22:00:39          42.5            4           14 
+2019-05-06T23:00:39          41.6            0           13 
+2019-05-07T00:00:39          42.4            6           13 
+2019-05-07T01:00:39          40.5            2           12 
+2019-05-07T02:00:39          43.8            2           13 
+2019-05-07T03:00:39          43.4            2           12 
+2019-05-07T04:00:39          44.2            0           11 
+2019-05-07T05:00:39          43.6            2           12 
+2019-05-07T06:00:39          45.8            6           11 
+2019-05-07T07:00:39          45.8            9           11 
+2019-05-07T08:00:39          45.6           11           12 
+2019-05-07T09:00:39          45.2            7           13 
+2019-05-07T10:00:39          47.1           11           16 
+2019-05-07T11:00:39          48.9           15           19 
+2019-05-07T12:00:39          48.3           22           20 
+2019-05-07T13:00:39          49.5           22           20 
+2019-05-07T14:00:39          47.6           20           20 
+2019-05-07T15:00:39          48.1           19           20 
+2019-05-07T16:00:39          43.7           19           19 
+2019-05-07T17:00:39          45.4           17           19 
+2019-05-07T18:00:39          44.9           13           17 
+2019-05-07T19:00:39            45            7           15 
+2019-05-07T20:00:39          47.7            7           15 
+2019-05-07T21:00:39          44.9           11           16 
+2019-05-07T22:00:39          44.8           11           15 
+2019-05-07T23:00:39          42.5           11           14 
+2019-05-08T00:00:39          42.9            9           14 
+2019-05-08T01:00:39          42.9           13           13 
+2019-05-08T02:00:39          43.5            9           14 
+2019-05-08T03:00:39          43.3            4           12 
+2019-05-08T04:00:39          43.3            4           13 
+2019-05-08T05:00:39          43.2            2           13 
+2019-05-08T06:00:39          42.9            2           13 
+2019-05-08T07:00:39            44            0           13 
+2019-05-08T08:00:39            44            4           12 
+2019-05-08T09:00:39          44.2            4           13 
+2019-05-08T10:00:39          45.2           13           16 
+2019-05-08T11:00:39          48.7           19           19 
+2019-05-08T12:00:39          48.3           17           20 
+2019-05-08T13:00:39            47           17           20 
+2019-05-08T14:00:39          45.6           20           20 
+2019-05-08T15:00:39          45.2           20           19 
+2019-05-08T16:00:39          44.7           20           20 
+2019-05-08T17:00:39          44.6           20           18 
+2019-05-08T18:00:39          43.8           11           17 
+2019-05-08T19:00:39          44.3            6           15 
+2019-05-08T20:00:39          44.3            9           14 
+2019-05-08T21:00:39          41.7            6           14 
+2019-05-08T22:00:39            40           13           15 
+2019-05-08T23:00:39          40.3            9           14 
+2019-05-09T00:00:39          41.2           13           14 
+2019-05-09T01:00:39          41.6           13           14 
+2019-05-09T02:00:39          42.9           11           14 
+2019-05-09T03:00:39          42.2            9           14 
+2019-05-09T04:00:39          41.7           11           13 
+2019-05-09T05:00:39          42.8           11           14 
+2019-05-09T06:00:39          42.9            6           13 
+2019-05-09T07:00:39          45.5           11           13 
+2019-05-09T08:00:39          43.7           11           13 
+2019-05-09T09:00:39          43.4           15           16 
+2019-05-09T10:00:39          44.3           15           18 
+2019-05-09T11:00:39          47.3           20           19 
+2019-05-09T12:00:39          47.7           22           20 
+2019-05-09T13:00:39          46.7           22           20 
+2019-05-09T14:00:39          44.2           24           21 
+2019-05-09T15:00:39            43           24           20 
+2019-05-09T16:00:39          40.5           26           20 
+2019-05-09T17:00:39          42.7           24           19 
+2019-05-09T18:00:39          43.3           17           18 
+2019-05-09T19:00:39          43.5           17           17 
+2019-05-09T20:00:39          45.6           17           17 
+2019-05-09T21:00:39            45           15           17 
+2019-05-09T22:00:39          44.4           19           17 
+2019-05-09T23:00:39          45.5           15           17 
+2019-05-10T00:00:39          46.1           17           18 
+2019-05-10T01:00:39            46           19           18 
+2019-05-10T02:00:39          46.1           15           18 
+2019-05-10T03:00:39          45.8           13           17 
+2019-05-10T04:00:39          48.6           15           18 
+2019-05-10T05:00:39          46.1           11           18 
+2019-05-10T06:00:39          46.5           17           16 
+2019-05-10T07:00:39          48.4            9           16 
+2019-05-10T08:00:39          48.6            9           16 
+2019-05-10T09:00:39          48.8            7           16 
+2019-05-10T10:00:39          50.5           17           17 
+2019-05-10T11:00:39          50.1           13           19 
+2019-05-10T12:00:39          50.1           11           20 
+2019-05-10T13:00:39          48.7           11           20 
+2019-05-10T14:00:39          46.2           20           20 
+2019-05-10T15:00:39          46.1           17           20 
+2019-05-10T16:00:39          46.3           11           20 
+2019-05-10T17:00:39          47.3           13           19 
+2019-05-10T18:00:39          44.6           11           17 
+2019-05-10T19:00:39          44.6            7           16 
+2019-05-10T20:00:39          45.6            6           16 
+2019-05-10T21:00:39          44.7            4           15 
+2019-05-10T22:00:39          45.1            4           14 
+2019-05-10T23:00:39          45.8            6           13 
+2019-05-11T00:00:39          45.6            4           14 
+2019-05-11T01:00:39          46.2            4           13 
+2019-05-11T02:00:39          45.8            7           12 
+2019-05-11T03:00:39          45.6            6           13 
+2019-05-11T04:00:39          45.7            0           12 
+2019-05-11T05:00:39          45.9            4           12 
+2019-05-11T06:00:39          45.5            4           13 
+2019-05-11T07:00:39          45.3            6           13 
+2019-05-11T08:00:39          46.1            6           13 
+2019-05-11T09:00:39          46.5            6           13 
+2019-05-11T10:00:39          46.5            4           14 
+2019-05-11T11:00:39          51.2            4           15 
+2019-05-11T12:00:39          50.4            4           16 
+2019-05-11T13:00:39          50.3            4           16 
+2019-05-11T14:00:39          47.8            6           20 
+2019-05-11T15:00:39            45            7           20 
+2019-05-11T16:00:39          44.9            9           20 
+2019-05-11T17:00:39            50           11           19 
+2019-05-11T18:00:39          47.4            9           16 
+2019-05-11T19:00:39          46.8            7           15 
+2019-05-11T20:00:39          46.1            6           15 
+2019-05-11T21:00:39          45.4            9           14 
+2019-05-11T22:00:39          45.3            4           14 
+2019-05-11T23:00:39          46.2           13           15 
+2019-05-12T00:00:39          47.4           13           16 
+2019-05-12T01:00:39          47.7           11           17 
+2019-05-12T02:00:39          47.3           17           18 
+2019-05-12T03:00:39          48.1           17           17 
+2019-05-12T04:00:39          47.2           13           17 
+2019-05-12T05:00:39          46.9           17           18 
+2019-05-12T06:00:39          47.4           15           18 
+2019-05-12T07:00:39          47.4           15           17 
+2019-05-12T08:00:39          48.3           20           18 
+2019-05-12T09:00:39          49.9           28           18 
+2019-05-12T10:00:39          51.5           37           19 
+2019-05-12T11:00:39          51.7           37           19 
+2019-05-12T12:00:39          50.3           41           20 
+2019-05-12T13:00:39          51.2           41           20 
+2019-05-12T14:00:39          49.7           46           20 
+2019-05-12T15:00:39          49.2           44           19 
+2019-05-12T16:00:39          49.9           46           18 
+2019-05-12T17:00:39          51.4           46           17 
+2019-05-12T18:00:39          49.4           48           19 
+2019-05-12T19:00:39*       50.1355      37.5201      22.8225 
+2019-05-12T20:00:39*          50.1      34.5283      26.3166 
+2019-05-12T21:00:39*        49.828      32.0134      31.3966 
+2019-05-12T22:00:39*       49.9748      29.0454      34.4197 
+2019-05-12T23:00:39*        50.551      32.0935      37.3444 
+2019-05-13T00:00:39*        51.496       29.771      41.1145 
+2019-05-13T01:00:39*       53.1307      28.6739      43.7126 
+2019-05-13T02:00:39*       54.2645      26.7418      45.8393 
+2019-05-13T03:00:39*       56.4289      23.9465      47.7927 
+2019-05-13T04:00:39*       56.5272      19.3528      47.8889 
+2019-05-13T05:00:39*       56.3834      19.4447      47.7917 
+2019-05-13T06:00:39*       57.1044      16.4174      47.1508 
+2019-05-13T07:00:39*       59.2896       9.8535      47.0796 
+2019-05-13T08:00:39*       62.2806       7.1105      46.9948 
+2019-05-13T09:00:39*       65.6512       10.109      46.3448 
+2019-05-13T10:00:39*       69.7839       8.4053      46.3849 
+2019-05-13T11:00:39*       69.2465       18.403      45.0527 
+2019-05-13T12:00:39*       66.2826      24.7769      43.0231 
+2019-05-13T13:00:39*       67.4954      30.2177      42.0363 
+2019-05-13T14:00:39*       67.4646      35.1887      40.5794 
+2019-05-13T15:00:39*       70.2201      43.2744       40.887 
+2019-05-13T16:00:39*       74.6075      48.0532      42.0658 
+2019-05-13T17:00:39*       77.1528      58.6163      43.8122 
+2019-05-13T18:00:39*       78.8839      71.1236      48.5772 
+2019-05-13T19:00:39*       81.9766      78.8177      54.5764 
+2019-05-13T20:00:39*       84.0502      93.2988      62.2775 
+2019-05-13T21:00:39*       86.5178     110.1877      71.4175 
+2019-05-13T22:00:39*       90.0258     126.4466      79.9173 
+2019-05-13T23:00:39*       92.0015     149.8562      89.5941 
+2019-05-14T00:00:39*       94.4921     172.0128      99.4386 
+2019-05-14T01:00:39*       97.8113     193.7805     110.1124 
+2019-05-14T02:00:39*      101.3173     220.2997     121.5284 
+2019-05-14T03:00:39*      105.7805     244.6814     132.6019 
+2019-05-14T04:00:39*      110.1511     270.8433     143.4159 
+2019-05-14T05:00:39*      112.3627     302.5671     153.7847 
+2019-05-14T06:00:39*      114.6235     334.8534     164.2978 
+2019-05-14T07:00:39*      118.9318      364.879     176.0213 
+2019-05-14T08:00:39*      123.7625     408.4845     187.8015 
+2019-05-14T09:00:39*      129.9818     453.8429     199.9314 
+2019-05-14T10:00:39*      138.2486     500.4148     211.8914 
+2019-05-14T11:00:39*      141.8573     560.0817     222.7574 
+2019-05-14T12:00:39*      144.2042     620.5046     234.3023 
+2019-05-14T13:00:39*      148.5561     682.3647     246.7979 
+2019-05-14T14:00:39*      152.7701     755.1471     260.1923 
+2019-05-14T15:00:39*      160.5705     831.5154     276.1734 
+2019-05-14T16:00:39*       170.391     912.3532     293.8926 
+2019-05-14T17:00:39*      178.3008     1008.022     314.1999 
+2019-05-14T18:00:39*      186.8276    1108.9047     338.0439 
+2019-05-14T19:00:39*      195.8198    1214.0463     364.9536 
+2019-05-14T20:00:39*      204.7921      1335.63     396.1552 
+2019-05-14T21:00:39*      215.7135    1464.1908     430.3185 
+2019-05-14T22:00:39*      227.9668    1603.5395     467.2247 
+2019-05-14T23:00:39*      238.5486    1761.7837     506.9759 
+2019-05-15T00:00:39*       251.021    1925.6391      549.553 
+2019-05-15T01:00:39*      264.8935    2100.0026       596.35 
+2019-05-15T02:00:39*      278.7442    2291.5974     646.9958 
+2019-05-15T03:00:39*      295.7039    2492.1627     701.0778 
+2019-05-15T04:00:39*      314.2675    2708.9238     758.5937 
+2019-05-15T05:00:39*      330.3156    2949.1013     818.5597 
+2019-05-15T06:00:39*      347.6076     3201.577      882.443 
+2019-05-15T07:00:39*      367.3338    3470.5749     950.3317 
+2019-05-15T08:00:39*      387.0302    3769.6012     1022.201 
+2019-05-15T09:00:39*      411.0835    4086.6231    1098.5505 
+2019-05-15T10:00:39*      437.6755    4428.9002     1178.144 
+2019-05-15T11:00:39*      461.5102    4806.3115    1261.4492 
+2019-05-15T12:00:39*      486.0379    5204.5133     1350.003 
+2019-05-15T13:00:39*      512.6837    5632.3809    1444.0159 
+2019-05-15T14:00:39*       540.533     6099.689    1545.1429 
+2019-05-15T15:00:39*      574.8016    6596.0901    1654.4466 
+2019-05-15T16:00:39*      612.1419    7132.9581    1771.8488 
+2019-05-15T17:00:39*       649.697    7720.3962    1899.0777 
+2019-05-15T18:00:39*      690.0815      8346.83    2037.0217 
+
+=== Evaluation on training data ===
+Target                      1-step-ahead  2-steps-ahead  3-steps-ahead  4-steps-ahead  5-steps-ahead  6-steps-ahead  7-steps-ahead  8-steps-ahead  9-steps-ahead 10-steps-ahead 11-steps-ahead 12-steps-ahead 13-steps-ahead 14-steps-ahead 15-steps-ahead 16-steps-ahead 17-steps-ahead 18-steps-ahead 19-steps-ahead 20-steps-ahead 21-steps-ahead 22-steps-ahead 23-steps-ahead 24-steps-ahead 25-steps-ahead 26-steps-ahead 27-steps-ahead 28-steps-ahead 29-steps-ahead 30-steps-ahead 31-steps-ahead 32-steps-ahead 33-steps-ahead 34-steps-ahead 35-steps-ahead 36-steps-ahead 37-steps-ahead 38-steps-ahead 39-steps-ahead 40-steps-ahead 41-steps-ahead 42-steps-ahead 43-steps-ahead 44-steps-ahead 45-steps-ahead 46-steps-ahead 47-steps-ahead 48-steps-ahead 49-steps-ahead 50-steps-ahead 51-steps-ahead 52-steps-ahead 53-steps-ahead 54-steps-ahead 55-steps-ahead 56-steps-ahead 57-steps-ahead 58-steps-ahead 59-steps-ahead 60-steps-ahead 61-steps-ahead 62-steps-ahead 63-steps-ahead 64-steps-ahead 65-steps-ahead 66-steps-ahead 67-steps-ahead 68-steps-ahead 69-steps-ahead 70-steps-ahead 71-steps-ahead 72-steps-ahead
+=================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Humidity
+  N                                  921            920            919            918            917            916            915            914            913            912            911            910            909            908            907            906            905            904            903            902            901            900            899            898            897            896            895            894            893            892            891            890            889            888            887            886            885            884            883            882            881            880            879            878            877            876            875            874            873            872            871            870            869            868            867            866            865            864            863            862            861            860            859            858            857            856            855            854            853            852            851            850
+  Mean absolute error             0.8065         0.9333         1.0071         1.0702          1.135         1.1911         1.2234         1.2433          1.258         1.2844         1.2956         1.3192         1.3449         1.3684         1.3819         1.3829         1.3914         1.4037         1.4227         1.4275         1.4296         1.4395         1.4478           1.46           1.46         1.4623         1.4547         1.4646         1.4641         1.4645         1.4647         1.4637         1.4684         1.4702         1.4758         1.4778         1.4811         1.4853         1.4894         1.4912         1.4903         1.4888         1.4882         1.4874         1.4849          1.485          1.488         1.4886         1.4843         1.4808         1.4819         1.4811         1.4791         1.4754         1.4711         1.4708         1.4743         1.4763         1.4802         1.4821         1.4877         1.4959         1.5006         1.5063         1.5065         1.5067         1.5052         1.5038          1.503         1.5024          1.501         1.5031
+  Root mean squared error         1.0995         1.2582         1.3609         1.4438          1.524         1.5815         1.6093         1.6367           1.66         1.6783         1.7037         1.7326         1.7542         1.7859         1.8017         1.8174         1.8343         1.8492         1.8728         1.8789         1.8862         1.8982         1.9108         1.9219         1.9238         1.9251         1.9241         1.9326         1.9341         1.9383         1.9401          1.944          1.949         1.9555         1.9604         1.9635         1.9652         1.9682         1.9712         1.9712          1.969         1.9654         1.9629         1.9622         1.9622         1.9632         1.9645         1.9657         1.9625         1.9607         1.9597         1.9606         1.9593         1.9575         1.9555         1.9572         1.9594         1.9618         1.9636         1.9658         1.9701          1.975         1.9803         1.9843         1.9848         1.9871          1.987         1.9873         1.9861         1.9863         1.9824         1.9841
+Wind Speed
+  N                                  921            920            919            918            917            916            915            914            913            912            911            910            909            908            907            906            905            904            903            902            901            900            899            898            897            896            895            894            893            892            891            890            889            888            887            886            885            884            883            882            881            880            879            878            877            876            875            874            873            872            871            870            869            868            867            866            865            864            863            862            861            860            859            858            857            856            855            854            853            852            851            850
+  Mean absolute error             2.5898         3.1453         3.4764         3.7698         4.0473         4.2278         4.4026          4.497         4.6018         4.7015         4.7414         4.7734         4.8201         4.8556         4.8981         4.9408         4.9705          4.986         4.9929         5.0137         5.0374         5.0434         5.0599         5.0842          5.106         5.1628         5.2023         5.2126         5.2523         5.2811          5.315          5.377         5.3866         5.4116          5.439         5.4347         5.4335          5.452         5.4233          5.455         5.4546          5.443         5.4456         5.4029         5.3903         5.3826         5.3678         5.3404         5.3304         5.3251         5.3367         5.3319          5.312         5.3219         5.3136         5.2989         5.2904          5.295         5.2986         5.3044         5.3142         5.3269         5.3341         5.3412         5.3401         5.3345         5.3465         5.3412         5.3177         5.3047         5.2875         5.2838
+  Root mean squared error          3.512         4.2022         4.6338         4.9847         5.2973         5.5472         5.7742         5.9304         6.0736         6.2085          6.281         6.3533         6.4066         6.4533         6.5005          6.541          6.564          6.585          6.601         6.6246         6.6734         6.6747         6.6833         6.7007         6.7556         6.8219         6.8971         6.9291         6.9612         7.0197         7.0639         7.1077         7.1405         7.1522           7.15         7.1197         7.1096         7.1043         7.0833         7.0881         7.0868         7.0721         7.0641         7.0382         7.0027          6.983         6.9575         6.9342         6.9282         6.9312         6.9391         6.9108          6.896         6.9104         6.8907         6.8665         6.8717         6.8831         6.8881         6.8868          6.896            6.9         6.9002         6.9137         6.9175         6.9091         6.9076         6.8981         6.8881         6.8877         6.8797         6.8763
+Outside Temp
+  N                                  921            920            919            918            917            916            915            914            913            912            911            910            909            908            907            906            905            904            903            902            901            900            899            898            897            896            895            894            893            892            891            890            889            888            887            886            885            884            883            882            881            880            879            878            877            876            875            874            873            872            871            870            869            868            867            866            865            864            863            862            861            860            859            858            857            856            855            854            853            852            851            850
+  Mean absolute error             0.5933         0.8065         0.9791         1.1007         1.1758         1.2338         1.2648         1.2842         1.2998         1.3068         1.3059         1.3066         1.3102         1.3192          1.324         1.3306         1.3324         1.3407         1.3367         1.3331          1.329         1.3243         1.3226         1.3197         1.3499         1.3911         1.4343         1.4679         1.4846         1.4992         1.5087         1.5087         1.5058         1.5045         1.4967         1.4907         1.4844         1.4807         1.4768         1.4732         1.4741         1.4784         1.4809         1.4805         1.4811         1.4801         1.4761         1.4739         1.4849         1.5043         1.5201         1.5324         1.5343         1.5406         1.5385         1.5315         1.5278         1.5257          1.526         1.5244          1.525         1.5239         1.5223         1.5239         1.5298         1.5379         1.5424         1.5468         1.5512         1.5541         1.5489         1.5423
+  Root mean squared error         0.7769         1.0295         1.2344         1.3826         1.4852         1.5614         1.6005         1.6216         1.6383         1.6511         1.6592         1.6691         1.6779         1.6901          1.698         1.7052         1.7123         1.7233         1.7245         1.7221         1.7167         1.7109         1.7098         1.7135         1.7508          1.802         1.8551         1.8892         1.9038         1.9099           1.91         1.9057         1.8998         1.8937         1.8864         1.8806         1.8752         1.8708         1.8683          1.864         1.8643         1.8662         1.8671         1.8672         1.8686         1.8692         1.8684         1.8748          1.892         1.9126         1.9291         1.9431          1.952         1.9578         1.9592         1.9573         1.9569         1.9562         1.9557         1.9543          1.953         1.9492         1.9472         1.9499          1.954         1.9596         1.9653         1.9683         1.9698         1.9695         1.9664         1.9608
+
+Total number of instances: 945
+
+=== Evaluation on test data ===
+Target                      1-step-ahead  2-steps-ahead  3-steps-ahead  4-steps-ahead  5-steps-ahead  6-steps-ahead  7-steps-ahead  8-steps-ahead  9-steps-ahead 10-steps-ahead 11-steps-ahead 12-steps-ahead 13-steps-ahead 14-steps-ahead 15-steps-ahead 16-steps-ahead 17-steps-ahead 18-steps-ahead 19-steps-ahead 20-steps-ahead 21-steps-ahead 22-steps-ahead 23-steps-ahead 24-steps-ahead 25-steps-ahead 26-steps-ahead 27-steps-ahead 28-steps-ahead 29-steps-ahead 30-steps-ahead 31-steps-ahead 32-steps-ahead 33-steps-ahead 34-steps-ahead 35-steps-ahead 36-steps-ahead 37-steps-ahead 38-steps-ahead 39-steps-ahead 40-steps-ahead 41-steps-ahead 42-steps-ahead 43-steps-ahead 44-steps-ahead 45-steps-ahead 46-steps-ahead 47-steps-ahead 48-steps-ahead 49-steps-ahead 50-steps-ahead 51-steps-ahead 52-steps-ahead 53-steps-ahead 54-steps-ahead 55-steps-ahead 56-steps-ahead 57-steps-ahead 58-steps-ahead 59-steps-ahead 60-steps-ahead 61-steps-ahead 62-steps-ahead 63-steps-ahead 64-steps-ahead 65-steps-ahead 66-steps-ahead 67-steps-ahead 68-steps-ahead 69-steps-ahead 70-steps-ahead 71-steps-ahead 72-steps-ahead
+=================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Humidity
+  N                                  400            399            398            397            396            395            394            393            392            391            390            389            388            387            386            385            384            383            382            381            380            379            378            377            376            375            374            373            372            371            370            369            368            367            366            365            364            363            362            361            360            359            358            357            356            355            354            353            352            351            350            349            348            347            346            345            344            343            342            341            340            339            338            337            336            335            334            333            332            331            330            329
+  Mean absolute error             1.4051         1.8608         1.8767         2.1473         2.3101         2.3953         2.4927         2.6437         3.1177         3.4887         3.9357          4.369          4.753         5.6828         6.2953         7.1006         7.3084         7.3214         7.6483          7.967         8.6334          9.327        10.1163        10.6694        11.5154        12.3668        13.1633         14.046        14.8171        15.4522        15.9452        16.5256        17.2989         18.018         18.845        19.5498        20.3111        21.2686        22.3696        23.6432        24.5925        25.3545        26.2226        27.1217         28.308        29.6789        31.0176        32.3284        33.7325        35.2188        36.7666        38.4202        40.0183        41.5563        43.0796        44.6721        46.4013        48.2458        50.1192        51.8957        53.7139        55.5295        57.4747        59.5971        61.5359        63.4103        65.2472        67.1633         69.325        71.6321        73.9413        76.1962
+  Root mean squared error         1.8599         2.4046         2.4465         2.7942         2.9722         3.0614         3.1548         3.3364         3.9057         4.3571         4.8829         5.4024         5.8622         6.9677         7.7033         8.7097         8.9726         9.0035         9.4272         9.8302        10.6562        11.5182        12.4904         13.165        14.2174        15.2804        16.2765        17.3948        18.3518         19.161        19.8113        20.5753        21.5802        22.5152        23.5954        24.5046        25.4834        26.7276        28.1569        29.8228        31.0728        32.1071        33.2954        34.5183        36.1176        37.9569        39.7435        41.5104        43.4216        45.4309        47.5344        49.8027        52.0105        54.1547        56.2959        58.5243        60.9455        63.5261        66.1531        68.6719        71.2887        73.8875        76.6434        79.6825        82.4851        85.2635        88.0542        90.9294        94.1654        97.6001       101.0381       104.4538
+Wind Speed
+  N                                  400            399            398            397            396            395            394            393            392            391            390            389            388            387            386            385            384            383            382            381            380            379            378            377            376            375            374            373            372            371            370            369            368            367            366            365            364            363            362            361            360            359            358            357            356            355            354            353            352            351            350            349            348            347            346            345            344            343            342            341            340            339            338            337            336            335            334            333            332            331            330            329
+  Mean absolute error             5.8162         7.8371        10.2006        12.8212        14.4236        16.3559        17.9578        19.8387        21.9382        23.8134        26.3194        27.9849        30.5051        32.3604        33.8898         35.195        35.4643        35.6202        34.7375         34.587        34.0897        33.6075        32.5436        30.5958        29.5556        27.9775        26.0224        24.2922        22.6011        21.6925        21.5038        22.2577        23.8304        26.3971        29.3431        33.1138         37.368        42.6956        48.9696        55.9335        63.9301        72.3447        81.3471        90.7627       100.9301       111.3605        122.685       135.0662        147.839       161.3445       175.7642       191.3061       208.2438       225.9967       244.4401       263.2396        282.865       303.5603       325.2896       347.9589       371.3867       395.9139       421.1454       448.1051       476.3987       506.1102       536.8748       568.8954       602.1307       636.4809       672.6502       710.8811
+  Root mean squared error          7.198         9.6089        12.3861        15.4562        17.3721        19.6322        21.5865        23.8552        26.3692         28.594        31.6507        33.5929        36.6429         38.902        40.7479        42.4383        42.8281        43.0431        42.0988        41.9667        41.4345         41.011        39.8595        37.6673         36.655        35.0908        33.0671        31.1294        29.2304        28.1922        28.0578        29.0573        31.3575        34.9778        39.3522        44.8237        50.7699        58.4515        67.3205        77.1432        88.5219        100.695       113.9063       127.9698       143.2513       159.0044       176.2607       195.2355       214.8353       235.2988       257.1959       280.9505       306.9659       333.7753       360.8459       387.8277       416.1284       446.4652       478.5015       511.9585       546.8808       582.9862       619.6049       659.7065       701.8064       746.6722       793.3044       842.1174       893.0138       945.8601      1001.9682      1061.9861
+Outside Temp
+  N                                  400            399            398            397            396            395            394            393            392            391            390            389            388            387            386            385            384            383            382            381            380            379            378            377            376            375            374            373            372            371            370            369            368            367            366            365            364            363            362            361            360            359            358            357            356            355            354            353            352            351            350            349            348            347            346            345            344            343            342            341            340            339            338            337            336            335            334            333            332            331            330            329
+  Mean absolute error             1.3337         2.3188         3.3201         4.3455         5.0529         5.8336         6.4428         6.8539         6.9842         6.9358         6.8371         6.6358         6.3507         6.2588         6.0064          5.905         5.7946         5.4756         5.4136         5.4075         5.5627         5.9666         6.4442         7.4251         8.6673        10.3151        12.3279        14.3506         16.443        18.5797        20.7324        22.9355        25.0759        27.0399        28.9851        30.8733        32.8277        34.8523         36.817        38.8354        40.7158        42.5218        44.4483        46.4254        48.7391        51.2728        54.1149        57.4206        61.0964        65.2457        69.7905        74.5983        79.6635        84.7939          90.06        95.4345       100.8777       106.4181       111.9563       117.5585       123.2866       128.9666       134.6125       140.3258        145.943        151.657       157.4409        163.357       169.5537        175.996       182.8084       190.0736
+  Root mean squared error         1.7341         3.0047         4.2443         5.5294          6.384         7.3522         8.1043          8.598         8.7226         8.6384          8.502         8.2573         7.9146          7.812         7.4819         7.3248         7.1477         6.7535         6.6641          6.629         6.8002         7.2842          7.882         9.1428        10.7591        12.8472        15.4424        18.0596        20.7723         23.593        26.4463        29.3968        32.2304        34.8436        37.4346        39.9749        42.6331          45.41        48.1547        51.0041        53.7216        56.3684        59.1867        62.0984        65.4619        69.1184        73.1888         77.892        83.0912        88.8482        95.1493       101.8822        109.045       116.3181       123.7732       131.3539       139.1048       147.0948       155.1613       163.3996       171.9257       180.3493       188.6837       197.3247       205.9192       214.8405       223.9337       233.2987       243.1157       253.3109       264.1238       275.7394
+
+Total number of instances: 400
+
